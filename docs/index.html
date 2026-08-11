@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nuclei POC - Daily Updated Nuclei Template Collection</title>
+<meta name="description" content="The largest curated collection of Nuclei templates, updated daily. 360,000+ POCs covering CVEs, vulnerabilities, and security detections.">
+<style>
+:root {
+  --bg: #0b0f17; --bg2: #111927; --bg3: #182235; --bg4: #1e2d4a;
+  --border: #1e2d45; --text: #c8d6e5; --text2: #6a7f9f; --text3: #3d5270;
+  --accent: #4da6ff; --accent2: #2d7dd2; --green: #3ddc84; --orange: #f5a623;
+  --red: #ff4757; --purple: #a29bfe; --gold: #ffd700;
+  --radius: 12px; --radius-lg: 20px;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans SC', sans-serif; background: var(--bg); color: var(--text); overflow-x: hidden; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+nav { position: sticky; top:0; z-index:100; backdrop-filter:blur(20px); background:rgba(11,15,23,.8); border-bottom:1px solid var(--border); }
+.nav-inner { max-width:1280px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; padding:0 24px; height:56px; }
+.nav-brand { display:flex; align-items:center; gap:10px; font-weight:700; font-size:15px; color:#fff; }
+.nav-brand .logo { width:28px; height:28px; background:linear-gradient(135deg,var(--accent),var(--accent2)); border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:13px; color:#fff; font-weight:800; }
+.nav-links { display:flex; align-items:center; gap:20px; font-size:13px; }
+.nav-links a { color:var(--text2); transition:color .15s; cursor:pointer; }
+.nav-links a:hover { color:var(--text); text-decoration:none; }
+.nav-links .btn { padding:6px 16px; background:var(--accent); color:#fff; border-radius:8px; font-weight:600; font-size:12px; }
+.nav-links .btn:hover { background:var(--accent2); }
+.lang-switch { display:flex; align-items:center; gap:4px; font-size:12px; }
+.lang-switch span { cursor:pointer; padding:2px 6px; border-radius:4px; color:var(--text3); transition:all .15s; }
+.lang-switch span.active { color:var(--accent); background:rgba(77,166,255,.1); }
+.lang-switch .sep { color:var(--text3); }
+
+.hero { max-width:1280px; margin:0 auto; padding:64px 24px 48px; display:flex; align-items:center; gap:48px; }
+.hero-content { flex:1; }
+.hero-badge { display:inline-flex; align-items:center; gap:6px; font-size:12px; font-weight:600; background:rgba(77,166,255,.12); color:var(--accent); padding:4px 12px; border-radius:20px; margin-bottom:16px; }
+.hero-badge .dot { width:6px; height:6px; background:var(--green); border-radius:50%; }
+.hero h1 { font-size:clamp(36px,5vw,56px); font-weight:800; line-height:1.1; color:#fff; letter-spacing:-1.5px; }
+.hero h1 .grad { background:linear-gradient(135deg,var(--accent),var(--green)); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+.hero p { font-size:16px; line-height:1.7; color:var(--text2); margin-top:16px; max-width:560px; }
+.hero-buttons { display:flex; gap:12px; margin-top:28px; }
+.hero-buttons .btn-primary { padding:10px 28px; background:var(--accent); color:#fff; border-radius:10px; font-weight:600; font-size:14px; transition:all .15s; }
+.hero-buttons .btn-primary:hover { background:var(--accent2); text-decoration:none; }
+.hero-buttons .btn-secondary { padding:10px 28px; background:var(--bg3); border:1px solid var(--border); border-radius:10px; color:var(--text); font-weight:500; font-size:14px; transition:all .15s; }
+.hero-buttons .btn-secondary:hover { background:var(--bg4); text-decoration:none; }
+.hero-stats { display:flex; gap:24px; margin-top:32px; flex-wrap:wrap; }
+.hero-stats .stat { text-align:center; }
+.hero-stats .stat .num { font-size:24px; font-weight:800; color:#fff; letter-spacing:-1px; }
+.hero-stats .stat .label { font-size:11px; color:var(--text2); margin-top:2px; white-space:nowrap; }
+.hero-visual { flex:1; max-width:480px; }
+.hero-visual .card { background:var(--bg2); border:1px solid var(--border); border-radius:var(--radius-lg); padding:24px; }
+.hero-visual .card-title { font-size:12px; color:var(--text2); text-transform:uppercase; letter-spacing:.5px; margin-bottom:12px; }
+.hero-visual .card-item { padding:8px 0; display:flex; align-items:center; gap:10px; font-size:13px; font-family:'JetBrains Mono',monospace; border-bottom:1px solid var(--border); }
+.hero-visual .card-item:last-child { border-bottom:none; }
+.hero-visual .tag { font-size:10px; padding:2px 6px; border-radius:4px; font-weight:600; font-family:'Inter',sans-serif; }
+.hero-visual .tag-critical { background:rgba(255,71,87,.15); color:var(--red); }
+.hero-visual .tag-high { background:rgba(245,166,35,.15); color:var(--orange); }
+.hero-visual .tag-medium { background:rgba(77,166,255,.12); color:var(--accent); }
+
+.section { max-width:1280px; margin:0 auto; padding:64px 24px; }
+.section-label { font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:.6px; color:var(--accent); margin-bottom:8px; }
+.section h2 { font-size:28px; font-weight:700; color:#fff; letter-spacing:-.5px; margin-bottom:12px; }
+.section .subtitle { font-size:15px; color:var(--text2); max-width:600px; line-height:1.6; }
+
+.features { display:grid; grid-template-columns:repeat(6,1fr); gap:12px; margin-top:32px; }
+.feature-card { background:var(--bg2); border:1px solid var(--border); border-radius:var(--radius); padding:24px; transition:border-color .15s, transform .15s; }
+.feature-card:hover { border-color:var(--text3); transform:translateY(-2px); }
+.feature-card .icon { width:40px; height:40px; border-radius:10px; display:flex; align-items:center; justify-content:center; font-size:18px; margin-bottom:14px; }
+.feature-card h3 { font-size:14px; font-weight:600; color:#fff; margin-bottom:6px; }
+.feature-card p { font-size:13px; color:var(--text2); line-height:1.6; }
+.feature-card .icon-blue { background:rgba(77,166,255,.12); }
+.feature-card .icon-green { background:rgba(61,220,132,.12); }
+.feature-card .icon-purple { background:rgba(162,155,254,.12); }
+.feature-card .icon-orange { background:rgba(245,166,35,.12); }
+.feature-card .icon-red { background:rgba(255,71,87,.12); }
+.feature-card .icon-gold { background:rgba(255,215,0,.12); }
+
+.tier-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:10px; margin-top:24px; }
+.tier-card { background:var(--bg2); border:1px solid var(--border); border-radius:var(--radius); padding:16px; text-align:center; transition:border-color .15s; }
+.tier-card:hover { border-color:var(--text3); }
+.tier-card .dot-big { width:28px; height:28px; border-radius:50%; margin:0 auto 8px; }
+.tier-card h4 { font-size:13px; font-weight:600; color:#fff; }
+.tier-card .desc { font-size:11px; color:var(--text2); margin-top:2px; }
+.tier-card .files { font-size:18px; font-weight:700; color:#fff; margin-top:8px; }
+.tier-card .files small { font-size:11px; font-weight:400; color:var(--text2); }
+.tier-dot-poc { background:var(--accent); }
+.tier-dot-poc_dedup { background:var(--green); }
+.tier-dot-poc_gold_11 { background:#8b5cf6; }
+.tier-dot-poc_gold_12 { background:var(--purple); }
+.tier-dot-poc_gold_13 { background:var(--orange); }
+.tier-dot-poc_gold_14 { background:#f97316; }
+.tier-dot-poc_gold_15 { background:var(--red); }
+
+.code-block { background:var(--bg2); border:1px solid var(--border); border-radius:var(--radius); padding:20px 24px; font-family:'JetBrains Mono',monospace; font-size:13px; line-height:1.8; color:var(--text); margin:16px 0; overflow-x:auto; }
+.code-block .comment { color:var(--text3); }
+.code-block .cmd { color:var(--green); }
+
+footer { border-top:1px solid var(--border); padding:40px 24px; text-align:center; font-size:13px; color:var(--text3); }
+footer a { color:var(--text2); }
+footer .links { display:flex; justify-content:center; gap:20px; margin-bottom:12px; font-size:12px; }
+
+@media (max-width:860px) {
+  .hero { flex-direction:column; padding:40px 20px 24px; }
+  .hero-visual { max-width:100%; }
+  .nav-links .hide-mobile { display:none; }
+  .hero-stats { gap:16px; }
+  .hero-stats .stat .num { font-size:20px; }
+}
+</style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+  <div class="nav-inner">
+    <div class="nav-brand"><span class="logo">N</span>Nuclei POC</div>
+    <div class="nav-links">
+      <a href="#features" class="hide-mobile" data-i18n="nav_features">Features</a>
+      <a href="#tiers" class="hide-mobile" data-i18n="nav_tiers">Tiers</a>
+      <a href="#browser" data-i18n="nav_browse">Browse</a>
+      <a href="https://github.com/adysec/nuclei_poc" target="_blank">GitHub</a>
+      <a href="https://github.com/adysec/nuclei_poc" target="_blank" data-i18n="nav_quickstart">Quick Start</a>
+      <div class="lang-switch">
+        <span id="langZh" class="active" onclick="setLang('zh')">中文</span>
+        <span class="sep">|</span>
+        <span id="langEn" onclick="setLang('en')">EN</span>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<div class="hero">
+  <div class="hero-content">
+    <div class="hero-badge"><span class="dot"></span><span data-i18n="hero_badge">Updated every 2 hours</span></div>
+    <h1 data-i18n="hero_title1"><span class="grad" data-i18n="hero_title2">Nuclei POC</span></h1>
+    <p data-i18n="hero_desc">Daily curated, deduplicated, and quality-ranked nuclei templates from 400+ upstream repositories. The largest open-source POC database for security testing.</p>
+    <div class="hero-buttons">
+      <a href="#browser" class="btn-primary" data-i18n="hero_browse">Browse POCs</a>
+      <a href="https://github.com/adysec/nuclei_poc" target="_blank" class="btn-secondary">GitHub →</a>
+    </div>
+    <div class="hero-stats" id="heroStats">
+      <div class="stat"><div class="num" id="totalPocs">—</div><div class="label" data-i18n="stat_pocs">Total POCs</div></div>
+      <div class="stat"><div class="num" id="totalTiers">—</div><div class="label" data-i18n="stat_tiers">Quality Tiers</div></div>
+      <div class="stat"><div class="num" id="totalCats">—</div><div class="label" data-i18n="stat_cats">Categories</div></div>
+      <div class="stat"><div class="num" id="totalRepos">400+</div><div class="label" data-i18n="stat_repos">Source Repos</div></div>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="card">
+      <div class="card-title" data-i18n="hero_card_title">Latest Additions</div>
+      <div class="card-item"><span class="tag tag-critical">Critical</span> CVE-2024-27198</div>
+      <div class="card-item"><span class="tag tag-high">High</span> CVE-2024-20931</div>
+      <div class="card-item"><span class="tag tag-medium">Medium</span> CVE-2024-23897</div>
+      <div class="card-item"><span class="tag tag-critical">Critical</span> CVE-2024-1709</div>
+      <div class="card-item"><span class="tag tag-high">High</span> CVE-2024-0204</div>
+    </div>
+  </div>
+</div>
+
+<!-- Features -->
+<div class="section" id="features">
+  <div class="section-label" data-i18n="features_label">Why Nuclei POC</div>
+  <h2 data-i18n="features_title">Built for scale, curated for quality</h2>
+  <div class="subtitle" data-i18n="features_sub">Automated pipeline that ingests, validates, deduplicates, and ranks templates from the security community.</div>
+  <div class="features">
+    <div class="feature-card">
+      <div class="icon icon-blue">Δ</div>
+      <h3 data-i18n="f1_title">Incremental Updates</h3>
+      <p data-i18n="f1_desc">Only fetches changed files since last sync via partial clone. Saves 99% bandwidth over full clones.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon icon-green">✓</div>
+      <h3 data-i18n="f2_title">Auto-validation</h3>
+      <p data-i18n="f2_desc">Every POC is validated with nuclei -validate. Invalid templates go to review directory for manual triage.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon icon-purple">◎</div>
+      <h3 data-i18n="f3_title">Multi-factor Dedup</h3>
+      <p data-i18n="f3_desc">18-dimension similarity scoring: CVE/CNVD matching, URL+method analysis, matcher keyword comparison, and name similarity.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon icon-orange">★</div>
+      <h3 data-i18n="f4_title">Quality Tiers</h3>
+      <p data-i18n="f4_desc">5-tier grading system ranks POCs by metadata richness, protocol support, detection capability, and format quality.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon icon-red">⚙</div>
+      <h3 data-i18n="f5_title">Auto-fix</h3>
+      <p data-i18n="f5_desc">Automatic severity casing normalization, empty severity completion, ID whitespace correction, and naming standardization.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon icon-gold">↻</div>
+      <h3 data-i18n="f6_title">Progress Resume</h3>
+      <p data-i18n="f6_desc">State.json records each repo's HEAD commit. Fresh VMs resume from last progress — no redundant cloning on unchanged repos.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Tiers -->
+<div class="section" id="tiers">
+  <div class="section-label" data-i18n="tiers_label">Quality Tiers</div>
+  <h2 data-i18n="tiers_title">From comprehensive to elite</h2>
+  <div class="subtitle" data-i18n="tiers_sub">Each tier balances breadth and quality. Higher tiers = higher confidence.</div>
+  <div class="tier-grid" id="tierGrid"></div>
+</div>
+
+<!-- Quick Start -->
+<div class="section">
+  <div class="section-label" data-i18n="qs_label">Quick Start</div>
+  <h2 data-i18n="qs_title">Use with Nuclei</h2>
+  <div class="subtitle" data-i18n="qs_sub">Download and scan with any tier in seconds.</div>
+  <div class="code-block">
+    <span class="comment" data-i18n="qs_comment1"># Clone only the gold tier (sparse checkout)</span><br>
+    <span class="cmd">git clone --filter=tree:0 --sparse</span> https://github.com/adysec/nuclei_poc<br>
+    <span class="cmd">cd nuclei_poc && git sparse-checkout set poc_gold_15</span><br><br>
+    <span class="comment" data-i18n="qs_comment2"># Scan a target</span><br>
+    <span class="cmd">nuclei -t poc_gold_15/ -u</span> https://example.com
+  </div>
+  <div class="code-block">
+    <span class="comment" data-i18n="qs_comment3"># Or download all POCs</span><br>
+    <span class="cmd">nuclei -t poc/ -u</span> https://example.com
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+  <div class="links">
+    <a href="https://github.com/adysec/nuclei_poc" target="_blank">GitHub</a>
+    <a href="https://github.com/adysec/nuclei_poc/blob/main/README.md" target="_blank" data-i18n="footer_docs">Documentation</a>
+    <a href="https://github.com/adysec/nuclei_poc/releases" target="_blank" data-i18n="footer_releases">Releases</a>
+  </div>
+  <p data-i18n="footer_maintained">Maintained by <a href="https://github.com/adysec" target="_blank">AdySec</a> · Powered by Rust &amp; GitHub Actions</p>
+</footer>
+
+<script>
+const CATS_URL = '_categories.json';
+let A = null, curT = null, curC = null, curF = [], curP = 0;
+const PS = 120;
+let lang = 'zh';
+
+const i18n = {
+  zh: {
+    nav_features:'Features', nav_tiers:'Tiers', nav_browse:'Browse', nav_quickstart:'Quick Start',
+    hero_badge:'每 2 小时自动更新', hero_title1:'<span class="grad">Nuclei POC</span>', hero_title2:'Nuclei POC',
+    hero_desc:'每日从 400+ 上游仓库自动采集、校验、去重、分级的 Nuclei 模板集合。',
+    hero_browse:'浏览 POCs',
+    stat_pocs:'POC 总数', stat_tiers:'质量等级', stat_cats:'分类数', stat_repos:'源仓库',
+    hero_card_title:'最新收录',
+    features_label:'为什么选择 Nuclei POC', features_title:'大规模采集，精品化筛选', features_sub:'全自动流水线从安全社区采集、校验、去重、分级。',
+    f1_title:'增量更新', f1_desc:'通过部分克隆，每次只拉取上次以来的变更文件，节省 99% 带宽。',
+    f2_title:'自动校验', f2_desc:'每个 POC 都经过 nuclei -validate 结构校验，未通过模板进入审核目录。',
+    f3_title:'多因素去重', f3_desc:'18 维度相似度评分：CVE/CNVD 匹配、URL+方法分析、匹配器关键词对比、名称相似度。',
+    f4_title:'精品分级', f4_desc:'5 级评分体系，按元数据丰富度、协议支持、检测能力、格式规范评出 Gold 11-15。',
+    f5_title:'自动修复', f5_desc:'自动规范 severity 大小写、补全空 severity、修正 ID 空格、标准化文件名。',
+    f6_title:'进度续传', f6_desc:'state.json 记录每个仓库的 HEAD commit，全新 VM 也能从上一次进度续传。',
+    tiers_label:'质量等级', tiers_title:'从全面覆盖到精英精选', tiers_sub:'每级在广度与质量间取得平衡。等级越高，可信度越高。',
+    qs_label:'快速开始', qs_title:'与 Nuclei 一起使用', qs_sub:'秒级下载并扫描任意等级。',
+    qs_comment1:'# 只克隆 gold 等级（稀疏检出）',
+    qs_comment2:'# 扫描目标', qs_comment3:'# 或者使用全部 POC',
+    footer_docs:'文档', footer_releases:'发布', footer_maintained:'由 <a href="https://github.com/adysec" target="_blank">AdySec</a> 维护 · 基于 Rust &amp; GitHub Actions',
+  },
+  en: {
+    nav_features:'Features', nav_tiers:'Tiers', nav_browse:'Browse', nav_quickstart:'Quick Start',
+    hero_badge:'Updated every 2 hours', hero_title1:'<span class="grad">Nuclei POC</span>', hero_title2:'Nuclei POC',
+    hero_desc:'Daily curated, deduplicated, and quality-ranked nuclei templates from 400+ upstream repositories.',
+    hero_browse:'Browse POCs',
+    stat_pocs:'Total POCs', stat_tiers:'Quality Tiers', stat_cats:'Categories', stat_repos:'Source Repos',
+    hero_card_title:'Latest Additions',
+    features_label:'Why Nuclei POC', features_title:'Built for scale, curated for quality', features_sub:'Automated pipeline that ingests, validates, deduplicates, and ranks templates from the security community.',
+    f1_title:'Incremental Updates', f1_desc:'Only fetches changed files since last sync via partial clone. Saves 99% bandwidth over full clones.',
+    f2_title:'Auto-validation', f2_desc:'Every POC is validated with nuclei -validate. Invalid templates go to review directory for manual triage.',
+    f3_title:'Multi-factor Dedup', f3_desc:'18-dimension similarity scoring: CVE/CNVD matching, URL+method analysis, matcher keyword comparison, name similarity.',
+    f4_title:'Quality Tiers', f4_desc:'5-tier grading system ranks POCs by metadata richness, protocol support, detection capability, and format quality.',
+    f5_title:'Auto-fix', f5_desc:'Automatic severity casing normalization, empty severity completion, ID whitespace correction, and naming standardization.',
+    f6_title:'Progress Resume', f6_desc:'State.json records each repo\'s HEAD commit. Fresh VMs resume from last progress on unchanged repos.',
+    tiers_label:'Quality Tiers', tiers_title:'From comprehensive to elite', tiers_sub:'Each tier balances breadth and quality. Higher tiers = higher confidence.',
+    qs_label:'Quick Start', qs_title:'Use with Nuclei', qs_sub:'Download and scan with any tier in seconds.',
+    qs_comment1:'# Clone only the gold tier (sparse checkout)',
+    qs_comment2:'# Scan a target', qs_comment3:'# Or download all POCs',
+    footer_docs:'Documentation', footer_releases:'Releases', footer_maintained:'Maintained by <a href="https://github.com/adysec" target="_blank">AdySec</a> · Powered by Rust &amp; GitHub Actions',
+  }
+};
+
+function setLang(l) {
+  lang = l;
+  document.getElementById('langZh').className = l === 'zh' ? 'active' : '';
+  document.getElementById('langEn').className = l === 'en' ? 'active' : '';
+  document.documentElement.lang = l === 'zh' ? 'zh-CN' : 'en';
+  applyI18n();
+}
+
+function applyI18n() {
+  const t = i18n[lang];
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.dataset.i18n;
+    if (t[key]) el.innerHTML = t[key];
+  });
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+    const key = el.dataset.i18nPlaceholder;
+    if (t[key]) el.placeholder = t[key];
+  });
+  if (A) renderTierCards();
+}
+
+async function init() {
+  const r = await fetch(CATS_URL);
+  A = await r.json();
+  const total = Object.values(A).reduce((a,b) => a + Object.values(b).reduce((c,d) => c + d, 0), 0);
+  document.getElementById('totalPocs').textContent = total.toLocaleString();
+  document.getElementById('totalTiers').textContent = Object.keys(A).length;
+  const catsAll = new Set();
+  Object.values(A).forEach(t => Object.keys(t).forEach(c => catsAll.add(c)));
+  document.getElementById('totalCats').textContent = catsAll.size;
+  renderTierCards();
+  applyI18n();
+}
+
+function renderTierCards() {
+  const el = document.getElementById('tierGrid');
+  const tn = lang==='zh'
+    ? { poc:'已校验', poc_dedup:'已去重', poc_gold_11:'入门级', poc_gold_12:'基础级', poc_gold_13:'进阶级', poc_gold_14:'专业级', poc_gold_15:'旗舰级' }
+    : { poc:'Validated', poc_dedup:'Deduplicated', poc_gold_11:'Entry', poc_gold_12:'Basic', poc_gold_13:'Advanced', poc_gold_14:'Pro', poc_gold_15:'Flagship' };
+  const tiers = Object.keys(A);
+  el.innerHTML = tiers.map(t => {
+    const total = Object.values(A[t]).reduce((a,b) => a + b, 0);
+    const n = Object.keys(A[t]).length;
+    return `<div class="tier-card"><div class="dot-big tier-dot-${t.replace(/[0-9]/g,'').replace(/_+$/,'') || 'poc'}"></div><h4>${t}</h4><div class="desc">${tn[t]||''} · ${n} ${lang==='zh'?'分类':'cats'}</div><div class="files">${total.toLocaleString()} <small>POCs</small></div></div>`;
+  }).join('');
+}
+
+init();
+</script>
+</body>
+</html>

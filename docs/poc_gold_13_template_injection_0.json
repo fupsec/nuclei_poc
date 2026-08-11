@@ -1,1 +1,0 @@
-["ScanReflectedSSTI.yaml","handlebars-ssti-helper-execution.yaml","liquid-ssti-filter-execution.yaml","node-nunjucks-ssti.yaml","pdf-signer-ssti-to-rce.yaml","spring-boot-ssti.yaml","ssti-arithmetic-active-probe.yaml","ssti-boolean-error-differential.yaml","ssti-detection-template.yaml","ssti-detection.yaml","ssti-polyglot-multi-engine-oob.yaml"]
