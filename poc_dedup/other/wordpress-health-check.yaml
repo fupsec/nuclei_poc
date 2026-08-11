@@ -7,7 +7,6 @@ info:
   reference:
     - https://wordpress.org/plugins/health-check/
   metadata:
-    max-request: 1
     plugin_namespace: health-check
     wpscan: https://wpscan.com/plugin/health-check
   tags: tech,wordpress,wp-plugin,top-200
@@ -47,4 +46,4 @@ http:
         part: body
         regex:
           - '(?i)Stable.tag:\s?([\w.]+)'
-# digest: 4a0a00473045022100fd828ad114adbf6cb558d381a1c42c653bf6568abbaf5baec7fcf1ecc27e7f1302200d5f812cb00c1f4e62a112e6b14c936ffbb77613a3e1a4d4411b0d0321a3a4e8:922c64590222798bb761d5b6d8e72950
+# digest: 4a0a00473045022100f6c5d074b53e5412f9dbf7c2a469e3d3223deb6227b1ddab6750c7e1b8ee55ec0220273920d05a8346035891ad2c7a4df950a1055e56e2416aad90b0aa367b724c87:922c64590222798bb761d5b6d8e72950

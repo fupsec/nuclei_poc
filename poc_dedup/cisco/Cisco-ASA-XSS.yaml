@@ -1,4 +1,4 @@
-id: Cisco ASA XSS
+id: Cisco-ASA-XSS
 info:
   author: shifacyclewala & hackergautam
   name: Cisco ASA XSS with vulnerable parameter SAMLResponse

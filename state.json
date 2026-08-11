@@ -1,1364 +1,1432 @@
 {
   "repos": {
-    "https://github.com/h0tak88r/nuclei_templates": {
-      "head": "3c37e573c530774c51973a18e697d88042ade3ec",
-      "synced_at": 1786387414
-    },
-    "https://github.com/reewardius/interested-nuclei-templates": {
-      "head": "06020a37812daf7a2d0eb9e1f367614dab5e57be",
-      "synced_at": 1786387414
-    },
-    "https://github.com/sadnansakin/my-nuclei-templates": {
-      "head": "72fc404ef843f6a78fe72c986860c5b309842c9c",
-      "synced_at": 1786387414
-    },
-    "https://github.com/milo2012/nuclei-templates-others": {
-      "head": "b56b784dd08c37381035cf56a2087d088706ac18",
-      "synced_at": 1786387414
-    },
-    "https://github.com/reewardius/nuclei-special-templates": {
-      "head": "76225eaae33c414fe504a85f2b254e82d7ac5283",
-      "synced_at": 1786387414
-    },
-    "https://github.com/Saitle/Yamilicious": {
-      "head": "6ff1c1121325f58e264d0a345f14188e4a6014a9",
-      "synced_at": 1786387434
-    },
-    "https://github.com/cybershadowvps/coffinxp-nuclei-templates": {
-      "head": "26feb56893a22cb6731f1a138001d514356a85f5",
-      "synced_at": 1786387455
-    },
-    "https://github.com/Anguvia/pxplan": {
-      "head": "fd87ef720bf9e7550512ef22bf1f84c3895e8b1c",
-      "synced_at": 1786387414
-    },
-    "https://github.com/projectdiscovery/fuzzing-templates": {
-      "head": "5585787b43e6f7242fcbb706688f9528be63e29f",
-      "synced_at": 1786387675
-    },
-    "https://github.com/0xSojalSec/kenzer-templates": {
-      "head": "cd9e6b3f9f095ee29adb8fd3accceb8fef923390",
-      "synced_at": 1786387675
-    },
-    "https://github.com/bug-vs-me/nuclei": {
-      "head": "42aa83fbec614af7e25e6a5f838a5a293c7c0e2d",
-      "synced_at": 1786387414
-    },
-    "https://github.com/Odayex/Random-Nuclei-Templates": {
-      "head": "b9472a33c07bce1c24bb02f0390659bcfe41860e",
-      "synced_at": 1786387414
-    },
-    "https://github.com/Vulker111/nuclei-templates": {
-      "head": "966a7dadf53fe0b705519e556a603b8e50066230",
-      "synced_at": 1786387434
-    },
-    "https://github.com/rahul-nakum14/Recon": {
-      "head": "d98b3ce30553e50e0b21419101b04f5fbe8cc4d1",
-      "synced_at": 1786387414
-    },
-    "https://github.com/marcositu/nuclei-custom-templates": {
-      "head": "2fd3857b65e0a942ff44ee4503b8fbcf5af0a1f5",
-      "synced_at": 1786387414
-    },
-    "https://github.com/jhonnybonny/nuclei-templates-bitrix": {
-      "head": "576e56e7b2b7b03232499e2182b58157529479c4",
-      "synced_at": 1786387434
-    },
-    "https://github.com/zodmagus/z0ds3c-Nuclei-Templates": {
-      "head": "5f1a9eeeff0c68e477b55e9af20bf34c35cf6654",
-      "synced_at": 1786387414
-    },
-    "https://github.com/Anja-dhnd/templates4nuclei": {
-      "head": "3bd12430492d154adfd07c433bc6721734f7f823",
-      "synced_at": 1786387434
-    },
-    "https://github.com/chudamax/custom_nuclei_templates": {
-      "head": "713b88d7281922d39b8750f5b5eb1d6332b8699d",
-      "synced_at": 1786387434
-    },
-    "https://github.com/damon-sec/TCSZ-Nuclei": {
-      "head": "ca8609ef97de8bc092cda8e5eb81f748b8273ba6",
-      "synced_at": 1786387414
-    },
-    "https://github.com/jhonnybonny/nuclei-templates": {
-      "head": "40117bf241eb20e874d387a96baf25415fcdb14b",
-      "synced_at": 1786387434
-    },
-    "https://github.com/aredspy/CVE-2021-41182-Tester": {
-      "head": "f8eb0aa0daeeebc3026fbfdfab2a85f46d95a5e1",
-      "synced_at": 1786387434
-    },
-    "https://github.com/im403/nuclei-temp": {
-      "head": "51f5b1785e2431cce4d0bd94f45cfe1500c93658",
-      "synced_at": 1786387414
-    },
-    "https://github.com/atk7r/Nuclei-Poc": {
-      "head": "f7649763dcb7a3e7641e011d3c6139f9aa8e980b",
-      "synced_at": 1786387414
-    },
-    "https://github.com/al00000000al/my_nuclei_templates": {
-      "head": "dca9d3acb5b297e6b7795bf399e0c753b2fb3668",
-      "synced_at": 1786387414
-    },
-    "https://github.com/reewardius/nuclei-templates": {
-      "head": "b69ee4090e1601946990d3a8d00cc6b1349c8827",
-      "synced_at": 1786387414
-    },
-    "https://github.com/nuts7/CVE-2023-27372": {
-      "head": "aa0a38a19ceebec234f4c256b8173a7c025a2a97",
-      "synced_at": 1786387414
-    },
-    "https://github.com/thelabda/nuclei-templates": {
-      "head": "20686e036fbe3d5a42f84f7a31b1735004dd92c1",
-      "synced_at": 1786387414
-    },
-    "https://github.com/br0wnst4n11/Custom_Nuclei_Templates": {
-      "head": "423fa2754f6c9ac260ee7ae62e819a5b09e59b4e",
-      "synced_at": 1786387434
-    },
-    "https://github.com/R-s0n/Custom_Vuln_Scan_Templates": {
-      "head": "2e982727c5109a2f609d23c8639065449f37b853",
-      "synced_at": 1786387414
-    },
-    "https://github.com/banditzCyber0x/template": {
-      "head": "ee725eddee2aeee470f79ff030adbb2627d28232",
-      "synced_at": 1786387434
-    },
-    "https://github.com/learnerboy88/CVE-2023-29489": {
-      "head": "27f86fcb2c4ef157898c234dc0da850506c47bb1",
-      "synced_at": 1786387414
-    },
-    "https://github.com/Lu3ky13/Authorization-Nuclei-Templates": {
-      "head": "f4f7facaf85c13ef8bf003ec989213badf9f750e",
-      "synced_at": 1786387414
-    },
-    "https://github.com/Dalaho-bangin/nuclei-templates2": {
-      "head": "c9456792da2450841be95377e47daa907a48666c",
-      "synced_at": 1786387414
-    },
-    "https://github.com/kh4sh3i/Nextcloud-Pentesting": {
-      "head": "5674cd7597b2f4f6a694c584028cea365a926bf6",
-      "synced_at": 1786387414
-    },
-    "https://github.com/thebrnwal/Content-Injection-Nuclei-Script": {
-      "head": "28ccf36d996830ed3562ea8aa9c632852c7ae6c5",
-      "synced_at": 1786387414
-    },
-    "https://github.com/xelemental/Nuclei-Templates": {
-      "head": "005eb5b267bed1612ccac4cedc3791c7d48954cb",
-      "synced_at": 1786387434
-    },
-    "https://github.com/malectricasoftware/SwaggerX": {
-      "head": "fb128da440c761f09edbf8ba5b70ff8bf39b371e",
-      "synced_at": 1786387434
-    },
-    "https://github.com/davidfortytwo/GetNucleiTemplates": {
-      "head": "039d5241c21297a20117beeb26319835cf3add25",
-      "synced_at": 1786387414
-    },
-    "https://github.com/rafaelwdornelas/my-nuclei-templates": {
-      "head": "9eac8a13a2d9ea8c4d41176348a4b874ad7f21f2",
-      "synced_at": 1786387414
-    },
-    "https://github.com/reewardius/mytemplates-log4shell": {
-      "head": "89a84366dace856e0f4a5398485c73169f454b3f",
-      "synced_at": 1786387414
-    },
-    "https://github.com/compr00t/nuclei-templates": {
-      "head": "355b84d31e8365d2896b53c62bc47c07739767e5",
-      "synced_at": 1786387414
-    },
-    "https://github.com/am0nt31r0/custom-nuclei-templates": {
-      "head": "5190c1e2718de3748ad82a288447195357b8429a",
-      "synced_at": 1786387414
-    },
-    "https://github.com/rxerium/CISA-KEV": {
-      "head": "2888f9aaea3f69dd101c20d9e278a3499b9666d0",
-      "synced_at": 1786387414
-    },
-    "https://github.com/bugbountydude/Nuclei-TamplatesBackup": {
-      "head": "5b11129134e315fec1d8e8e09b8f468254fa654c",
-      "synced_at": 1786387414
-    },
-    "https://github.com/V0idC0de/dir-listing-iis-test": {
-      "head": "a824a427808c5b1f3b446160028da54f658a53ff",
-      "synced_at": 1786387414
-    },
-    "https://github.com/anmolksachan/nuclei-templates": {
-      "head": "7d4d47d851e18708609d35f70e1efadc38f683d6",
-      "synced_at": 1786387414
-    },
-    "https://github.com/SumedhDawadi/Custom-Nuclei-Template": {
-      "head": "b12c0e0a3f63102a9c3c75a9a6379b8df9346326",
-      "synced_at": 1786387414
-    },
-    "https://github.com/edoardottt/RFDos-Scanner": {
-      "head": "e613526c7b5e048dc9c4c7c5b44c2ca1268559c1",
-      "synced_at": 1786387434
-    },
-    "https://github.com/lliwi/nuclei-repo-hunter": {
-      "head": "8dd698c9c680bc1b7170dbb6d4908f1fa16faeab",
-      "synced_at": 1786387414
-    },
-    "https://github.com/Arvinthksrct/alltemplate": {
-      "head": "5adaa637d1857a1875ee444eb8141e64489386cb",
-      "synced_at": 1786387414
-    },
-    "https://github.com/NitinYadav00/My-Nuclei-Templates": {
-      "head": "49703439a2a67e4a6fe30713524fde95ba70eb5f",
-      "synced_at": 1786387414
-    },
-    "https://github.com/vulnspace/nuclei-templates": {
-      "head": "fa0e1293cbc133cf44248d86dd3acc7575ef4248",
-      "synced_at": 1786387414
-    },
-    "https://github.com/microphone-mathematics/custom-nuclei-templates": {
-      "head": "0564c3f6bf3a87c3c4bac8bb218fc0c8df36a37b",
-      "synced_at": 1786387414
-    },
-    "https://github.com/Facucuervo87/openssl-3.0.4-template": {
-      "head": "bf7b0cb8b3ac7fcd60370e92926487de3ce87f6e",
-      "synced_at": 1786387414
-    },
-    "https://github.com/mertugur/nuclei-templates": {
-      "head": "f618f4f828adb8e042d7be070965412fe5ac77dd",
-      "synced_at": 1786387414
-    },
-    "https://github.com/rahulkadavil/nuclei-templates": {
-      "head": "018341db02159df5122a9ec7128cdfdbc4732b76",
-      "synced_at": 1786387414
-    },
     "https://github.com/attacker-codeninja/My-Nuclei-Templates-2": {
       "head": "b6bee1b3aa1ff74a8dd65c187c7811fa5afc297d",
-      "synced_at": 1786387414
-    },
-    "https://github.com/ZoomerTedJackson/Salesforce-ContentDocument-DetectorNuclei-Template": {
-      "head": "e529ee92b48bf4f87febc436a5cdb165881f327e",
-      "synced_at": 1786387434
-    },
-    "https://github.com/0x71rex/0-Nuclei-Templates": {
-      "head": "3819f7fc2a20e170d1cf45abe231c6b5b9960548",
-      "synced_at": 1786387414
-    },
-    "https://github.com/NightRang3r/misc_nuclei_templates": {
-      "head": "802fbde1f106fede2d00d6db98ce1a8721bc8d27",
-      "synced_at": 1786387414
-    },
-    "https://github.com/0xSojalSec/nuclei-templates-websphere-portal-preauth-ssrf": {
-      "head": "dd3d121bac81b219eb43af91e5018992c3727416",
-      "synced_at": 1786387675
-    },
-    "https://github.com/windyGarlic/my-nuclei-templates": {
-      "head": "cf8db1b677feec39d260cafee1a6ae1b1aef8466",
-      "synced_at": 1786387434
-    },
-    "https://github.com/vidocsecurity/templates": {
-      "head": "8f95da7d7c4bf8d553d8fb8625c05be895d3b1d5",
-      "synced_at": 1786387434
-    },
-    "https://github.com/Harish4948/Nuclei-Templates": {
-      "head": "8c185d959b84985714d068b2cbbd7b90741dfaf6",
-      "synced_at": 1786387414
-    },
-    "https://github.com/rafaelcaria/Nuclei-Templates": {
-      "head": "203067974422248c65caec2b6f3223d6782e93ba",
-      "synced_at": 1786387414
+      "synced_at": 1786429860
     },
     "https://github.com/mdube99/custom-nuclei-templates": {
       "head": "d1d786f27e49ff884937a9563076134bdf135fd7",
-      "synced_at": 1786387414
-    },
-    "https://github.com/0xSojalSec/templatesallnuclei": {
-      "head": "2faa7656496501b549e2c10076c493bcb99ae1c6",
-      "synced_at": 1786387675
-    },
-    "https://github.com/Elsfa7-110/log4jNuclei": {
-      "head": "332f3ff8db3da912bfe12d227c1c5d276080061a",
-      "synced_at": 1786387414
-    },
-    "https://github.com/Saboor-Hakimi/CVE-2023-23752": {
-      "head": "226296183a0a2c60dc8bec67f7eee9a144b2260e",
-      "synced_at": 1786387414
-    },
-    "https://github.com/emadshanab/nucleiDB": {
-      "head": "a06eb8edf2853662c304e3f41f8887b65f56e399",
-      "synced_at": 1786387414
-    },
-    "https://github.com/sancrusader/Prv8-Nuclei-Templates": {
-      "head": "e14cda8943e4ad04096d7baeb5138a684e2f07a0",
-      "synced_at": 1786387455
-    },
-    "https://github.com/YuanBenSir/Nuclei_poc_C": {
-      "head": "e0c3ddf9e4f69d6985feed45cd596af7ba0e7879",
-      "synced_at": 1786387414
-    },
-    "https://github.com/emadshanab/nuclei-bitrix-templates": {
-      "head": "8979464d65dc53c9e490172471b0e0795e9253b5",
-      "synced_at": 1786387434
-    },
-    "https://github.com/coffinxp/nuclei-templates": {
-      "head": "53b8c08aeb1e972a10a8e51bb5d76dd792254fcd",
-      "synced_at": 1786387434
-    },
-    "https://github.com/RajaUzairAbdullah/nuclei-templates": {
-      "head": "75e8dc8ebca720b249c4394a1de01e88e84ebbde",
-      "synced_at": 1786387414
-    },
-    "https://github.com/Dalaho-bangin/my_nuclei_templates": {
-      "head": "6f6de15f8b54861b81f465d7d2d12735e67b1a4b",
-      "synced_at": 1786387414
-    },
-    "https://github.com/mdsabbirkhan/0xPugazh-my-nuclei-templates": {
-      "head": "2b98a3215c9dd96aa9c503774b0df781f5665993",
-      "synced_at": 1786387414
-    },
-    "https://github.com/SirAppSec/nuclei-template-generator-log4j": {
-      "head": "8bda293714d48e185e55a76c7237e8111f91cdf5",
-      "synced_at": 1786387414
-    },
-    "https://github.com/ReksySec/3Nucleit-Templates": {
-      "head": "45c0cb5a5ca5dedadc3400175558773b8ff7f91e",
-      "synced_at": 1786387434
-    },
-    "https://github.com/Mohsenalmamun/Nuclei-Template": {
-      "head": "e8bbae1fe2f2c47ebf79c56b2486174dc5d1360d",
-      "synced_at": 1786387434
-    },
-    "https://github.com/wearetyomsmnv/llm_integrated_nuclei_templates": {
-      "head": "039b4aa484d1c5a8dd84e6590e9dd394bb3a512d",
-      "synced_at": 1786387414
-    },
-    "https://github.com/NoRed0x/nored0x-Nuclei-Templates": {
-      "head": "a634df4158df53e9030e49944ffb7cb27cd6d6fd",
-      "synced_at": 1786387414
-    },
-    "https://github.com/0x71rex/0-fuzzing-templates": {
-      "head": "444d05611ff98539c61199e1e8a77d1ba0dc8baf",
-      "synced_at": 1786387414
-    },
-    "https://github.com/xjhonly/nuclei-templates": {
-      "head": "99175e1a198e627a06ec3179d9bffea6aaf2c3fa",
-      "synced_at": 1786387434
-    },
-    "https://github.com/trickest/log4j": {
-      "head": "30607e4fd4527b369be2fb8ece8d73e8580142c7",
-      "synced_at": 1786387414
-    },
-    "https://github.com/th3-r3sistanc3/nuclei-templates": {
-      "head": "d74c12579347bc4f08043527dfe8dc137fa30648",
-      "synced_at": 1786387414
-    },
-    "https://github.com/megamindmeg/Templates": {
-      "head": "225792021ccee517c8a7c86c2cca1c4795d15ee2",
-      "synced_at": 1786387434
-    },
-    "https://github.com/Elsfa7-110/mynuclei-templates": {
-      "head": "3e0ca285b38af2a2491fc6dc3f5eaf80dd78bf0b",
-      "synced_at": 1786387414
-    },
-    "https://github.com/obreinx/nuceli-templates": {
-      "head": "a2a32761e5a05d3c92cd7b80403bb0346bb1682a",
-      "synced_at": 1786387414
-    },
-    "https://github.com/test502git/log4j-fuzz-head-poc": {
-      "head": "8882134a42d816f093f892342995bcfb382113db",
-      "synced_at": 1786387414
-    },
-    "https://github.com/cipher387/juicyinfo-nuclei-templates": {
-      "head": "4bef89cfd50f9e60ea5a8b8a32636c95ca2168ad",
-      "synced_at": 1786387414
-    },
-    "https://github.com/RandomRobbieBF/nuclei-drupal-sa": {
-      "head": "cc2b1907174cb440086999a03d76bb29617657ca",
-      "synced_at": 1786387414
-    },
-    "https://github.com/Erenlancaster/CVE-2021-46704": {
-      "head": "7198206e0264418e98781c39a8c02ec747c70b82",
-      "synced_at": 1786387414
-    },
-    "https://github.com/clarkvoss/Nuclei-Templates": {
-      "head": "a49bbf37e9e4f8dbfa0031437dc2dc92bc1a8eb2",
-      "synced_at": 1786387414
-    },
-    "https://github.com/ptyspawnbinbash/template-enhancer": {
-      "head": "0a94180d625a5ceabcc5541bb78f2dfc2ca4ed9e",
-      "synced_at": 1786387414
-    },
-    "https://github.com/numanturle/CVE-2022-41040": {
-      "head": "09b56a987fd2d882b1325c18d637ffe0a92ce4b4",
-      "synced_at": 1786387414
-    },
-    "https://github.com/valaDevs/env-js-nuclei": {
-      "head": "c668ebfa50adc5918dd0ec5df4441b8535a48efa",
-      "synced_at": 1786387434
-    },
-    "https://github.com/DiabloHTB/Nuclei-Template-CVE-2024-1561": {
-      "head": "97c132094f7b210f5f93b8aebf8ab8b3e3b169ee",
-      "synced_at": 1786387434
-    },
-    "https://github.com/alexrydzak/rydzak-nuclei-templates": {
-      "head": "8454cec2756026303126898f7d3f5f1f299c75c9",
-      "synced_at": 1786387414
-    },
-    "https://github.com/n1f2c3/mytemplates": {
-      "head": "987b0a079e8498ccccca65ade049c03f77f7f2c2",
-      "synced_at": 1786387414
-    },
-    "https://github.com/exploit-io/nuclei-fuzz-templates": {
-      "head": "48b444016b48d0d41d342e5894ddcbc0d794df1e",
-      "synced_at": 1786387434
-    },
-    "https://github.com/windyGarlic/nuclei-templates": {
-      "head": "cf8db1b677feec39d260cafee1a6ae1b1aef8466",
-      "synced_at": 1786387434
-    },
-    "https://github.com/adibarsyad/nuclei-jsp-source-code-review": {
-      "head": "5f09a2e0e4c7fa6a48b37b897b48fca1dd576e0b",
-      "synced_at": 1786387434
-    },
-    "https://github.com/ahmedalroky/nuclei-templates": {
-      "head": "d4e6aec828c044f1dbaed4c8d7a7f3569d4d8029",
-      "synced_at": 1786387414
-    },
-    "https://github.com/bjhulst/nuclei-custom-templates": {
-      "head": "bb5f75a1ff27279ee0e5fc54fb57b2248e4500b9",
-      "synced_at": 1786387414
-    },
-    "https://github.com/0xr2r/templates-nucleir2r": {
-      "head": "def67c6daac09a7e770d99251b7746792789c379",
-      "synced_at": 1786387434
-    },
-    "https://github.com/Mamilate/3-Nuclei-Templates": {
-      "head": "b384c95e8d48586f782fde430cfc349ad4d733e8",
-      "synced_at": 1786387434
-    },
-    "https://github.com/Kennyslaboratory/Nuclei-Templates": {
-      "head": "057dfea3a06a76d46bed54b7bc372d80be83b807",
-      "synced_at": 1786387455
-    },
-    "https://github.com/nischalbijukchhe/specific-nuclei-templates": {
-      "head": "60b80fe4e3a85c0d4d6f15578b4dc5f582d31b7b",
-      "synced_at": 1786387455
-    },
-    "https://github.com/BagheeraAltered/FuzzingTemplate": {
-      "head": "f6ca97c3e7a7e18d09d446020ac66e1daf66cdd7",
-      "synced_at": 1786387414
-    },
-    "https://github.com/securitytaters/nuclei-templates": {
-      "head": "c1336dd6d78d4a2fd7a3e598a94e82b23c0034c2",
-      "synced_at": 1786387434
-    },
-    "https://github.com/Co5mos/nuclei-tps": {
-      "head": "5bc8b820acf9c992602cc7566e205e6cf1c463dd",
-      "synced_at": 1786387414
-    },
-    "https://github.com/toramanemre/apache-solr-log4j-CVE-2021-44228": {
-      "head": "927f95bc7cbdeec06ebc6e62e46505cfa95e0e76",
-      "synced_at": 1786387414
-    },
-    "https://github.com/bmjoker/Nuclei2use": {
-      "head": "b8674e4df2efbeb5a1b9e1b8ac0bffec20e4efe8",
-      "synced_at": 1786387414
-    },
-    "https://github.com/hughink/nuclei-poc": {
-      "head": "7786dafceb779252baa2dc088b155702b4a59c91",
-      "synced_at": 1786387414
-    },
-    "https://github.com/thelabda/labdanuclei": {
-      "head": "f426583a5355aa72e1eff8e1315450239659ccb5",
-      "synced_at": 1786387675
-    },
-    "https://github.com/SirBugs/Priv8-Nuclei-Templates": {
-      "head": "316910ea67eb57eac0bb24a0520fb56f6a927bea",
-      "synced_at": 1786387414
-    },
-    "https://github.com/fostane/my-nuclei-templates-1": {
-      "head": "811e9b274f88e47ba263a93595f1bfca57284fb8",
-      "synced_at": 1786387414
-    },
-    "https://github.com/emo-crab/scap-rs": {
-      "head": "cd0ac9fdce2342acc905592b7f68c14a0006a814",
-      "synced_at": 1786387434
-    },
-    "https://github.com/sushant-kamble/mynuclei-template": {
-      "head": "c9ed2fdac1dcb78fdaf9ed755826202d5c60a1bd",
-      "synced_at": 1786387414
-    },
-    "https://github.com/rzizah/private-nuclei-template": {
-      "head": "32ddfec1920151ae5dc6a8801917f17f5e297b36",
-      "synced_at": 1786387434
-    },
-    "https://github.com/Saimonkabir/Nuclei-Templates": {
-      "head": "a591943f81048cadbf3beddb95f00abec2469f14",
-      "synced_at": 1786387414
-    },
-    "https://github.com/yavolo/nuclei-templates": {
-      "head": "1a9e2332a7bb8547c70f3c8e93b7011a2bad2921",
-      "synced_at": 1786387414
-    },
-    "https://github.com/rum3ch/Ae86": {
-      "head": "e7e5b5e36cac676bc98dc9ce7e1823e317a215e5",
-      "synced_at": 1786387414
-    },
-    "https://github.com/emanueldosreis/CVE-2024-38856": {
-      "head": "d1d3389a61b9038355df62bfeae86c8d7f84394b",
-      "synced_at": 1786387434
-    },
-    "https://github.com/r3dcl1ff/nuclei-templates": {
-      "head": "d0b81870094c577fc3140e69939b3bb8e01fa8f5",
-      "synced_at": 1786387434
-    },
-    "https://github.com/Loftven/BIZONE_WAF_DETECt": {
-      "head": "291610044cefbc1bd598c5beb12f489e3178e943",
-      "synced_at": 1786387434
-    },
-    "https://github.com/praetorian-inc/zeroqlik-detect": {
-      "head": "1baaf56f906dfffd91659153242af195dd7307f7",
-      "synced_at": 1786387414
-    },
-    "https://github.com/sharathkramadas/k8s-nuclei-templates": {
-      "head": "25b0a9d3e6c5b59037b17fd44585c061ad38a9ff",
-      "synced_at": 1786387414
-    },
-    "https://github.com/ts4rin4/templates4nuclei": {
-      "head": "3bd12430492d154adfd07c433bc6721734f7f823",
-      "synced_at": 1786387434
-    },
-    "https://github.com/r3dcl1ff/Symfony-Fuck": {
-      "head": "15c7a9b01b137ace0d3f969a403a00586386f936",
-      "synced_at": 1786387414
-    },
-    "https://github.com/qaisarafridi/MY-Nuclei-Templates": {
-      "head": "3660d31d1eb29e86c1d3403eb973b1e0cbeaf677",
-      "synced_at": 1786387414
-    },
-    "https://github.com/xungzzz/CVE-2024-4956": {
-      "head": "266f3a0e11e7474565d91106bb99ca980f36ba26",
-      "synced_at": 1786387434
-    },
-    "https://github.com/ZephrFish/CVE-2024-4577-PHP-RCE": {
-      "head": "4877c1405903f98aa92fd9ecb2842315a1889f27",
-      "synced_at": 1786387434
-    },
-    "https://github.com/zeronine9/nuclei_Stuff": {
-      "head": "1f8906ff698a22906d0913a3074c290d1fdb099f",
-      "synced_at": 1786387455
-    },
-    "https://github.com/esetal/nuclei-bb-templates": {
-      "head": "7a008d58c4330aeb2e875bfc71d928261ad24df9",
-      "synced_at": 1786387414
-    },
-    "https://github.com/10kHacktech/nuclei_templates": {
-      "head": "8ddb9cbb6064ca6c3cb7615bb233b50ea54104a3",
-      "synced_at": 1786387414
-    },
-    "https://github.com/ed-red/redmc_custom_templates_nuclei": {
-      "head": "e0b1d92115057b75866bd9fb83c7d476ab206cb1",
-      "synced_at": 1786387414
-    },
-    "https://github.com/Term1N8/nuclei-templates": {
-      "head": "b93bcf91fd83d1d2aab3f211dd86443fbcb02bfd",
-      "synced_at": 1786387434
-    },
-    "https://github.com/0xBl4nk/ssti-detection-nuclei": {
-      "head": "9755c539383ca556679a313282dffcbc67005ef7",
-      "synced_at": 1786387675
-    },
-    "https://github.com/AshiqurEmon/nuclei_templates": {
-      "head": "8f3a5f222a09fe8cb12789089281d3ee6da3e765",
-      "synced_at": 1786387414
-    },
-    "https://github.com/nicholasaleks/NucleiGPT": {
-      "head": "54bb67ad8b4bba50d084fecfc61e754970af64ea",
-      "synced_at": 1786387414
-    },
-    "https://github.com/medbsq/ncl": {
-      "head": "bd57ef5bf75f3c7c2abb290ef055b3abc2975d80",
-      "synced_at": 1786387414
-    },
-    "https://github.com/PedroFerreira97/nuclei_templates": {
-      "head": "7399a62723d05863ea3f5c2d96b8fe71a1f0ced0",
-      "synced_at": 1786387414
-    },
-    "https://github.com/e1abrador/SpringCorePoC.sh": {
-      "head": "4d87d67f0943c0c1cbbb4128e65f0a149e739023",
-      "synced_at": 1786387414
-    },
-    "https://github.com/pushpak-11/nuclei-templates": {
-      "head": "657d9e205631d49bd558300df78696bd6a496f19",
-      "synced_at": 1786387434
-    },
-    "https://github.com/SalehLardhi/nuclei-wp-config-php": {
-      "head": "976fa44f6ade5acd3ae46180985f82e0a4db56f4",
-      "synced_at": 1786387434
-    },
-    "https://github.com/Akokonunes/Private-Nuclei-Templates": {
-      "head": "f92d2274458a958ed01345915693cf1dbe026f83",
-      "synced_at": 1786387414
-    },
-    "https://github.com/yarovit-developer/nuclei-templates": {
-      "head": "068d3a34c5a3e556f2b36cd70903b2fb7d0cc7e8",
-      "synced_at": 1786387414
-    },
-    "https://github.com/2jung/nuclei-templates": {
-      "head": "0b4473be98122bdba8ba8b3d59c15ed2d0b0f27a",
-      "synced_at": 1786387414
-    },
-    "https://github.com/0xSojalSec/my-nuclei-templates-1": {
-      "head": "4ce3ee5dbd1ab2f356680f9f44a560d9e51f6148",
-      "synced_at": 1786387675
-    },
-    "https://github.com/pikpikcu/nuclei-fuzz": {
-      "head": "9124ed6992b2e890128a8635c037b07bfaf91202",
-      "synced_at": 1786387414
-    },
-    "https://github.com/KhukuriRimal/CustomNucleiTemplates": {
-      "head": "f524f89601ecb03655a303a9e9664fd78ca540eb",
-      "synced_at": 1786387434
-    },
-    "https://github.com/erengozaydin/Nuclei-Templates": {
-      "head": "a9dc4843abd7be8e819c43d6b683f201cc6981b4",
-      "synced_at": 1786387434
-    },
-    "https://github.com/thecyberneh/nuclei-templatess": {
-      "head": "91801da079df83b43016ad35ed182b517e09aa36",
-      "synced_at": 1786387414
-    },
-    "https://github.com/erickfernandox/nuclei-templates": {
-      "head": "0db9813362091be34dc30b4988b7bb76b2a2b421",
-      "synced_at": 1786387414
-    },
-    "https://github.com/Shakilll/my_nuclei_templates": {
-      "head": "8659ec465a93101f2fd9eb6e0b375ed3a048627d",
-      "synced_at": 1786387414
-    },
-    "https://github.com/Deep2142004/Nuclei-Templates": {
-      "head": "9863950386773fb0fd79f276499258530aa6aca9",
-      "synced_at": 1786387414
-    },
-    "https://github.com/Mr-xn/CVE-2023-23333": {
-      "head": "2b7142889c37136d14e42eb695721a1356129c0a",
-      "synced_at": 1786387414
-    },
-    "https://github.com/PedroF-369/nuclei_templates": {
-      "head": "7399a62723d05863ea3f5c2d96b8fe71a1f0ced0",
-      "synced_at": 1786387414
-    },
-    "https://github.com/Jagomeiister/nuclei-templates": {
-      "head": "ddf3345c80f0a1d4c8fa9be9f46cd349f2719741",
-      "synced_at": 1786387414
-    },
-    "https://github.com/Saptak9983/Nuclei-Template": {
-      "head": "f6ba54c7465991af0793fb70d07e4e10ba1b5c84",
-      "synced_at": 1786387414
-    },
-    "https://github.com/ShadowHackrs/Nuclei-templates": {
-      "head": "bcfdf1dee56bb5e7547439f5d1bdefac466cf9f2",
-      "synced_at": 1786387455
-    },
-    "https://github.com/0xSojalSec/nuclei-templates-5": {
-      "head": "5cac6279d6814d6ea558bfc0343880e0c3574803",
-      "synced_at": 1786387675
-    },
-    "https://github.com/Deepparasiya/Nuclei-Templates": {
-      "head": "9863950386773fb0fd79f276499258530aa6aca9",
-      "synced_at": 1786387414
-    },
-    "https://github.com/blackvitasoy/nuclei_templates": {
-      "head": "27737eb71d7af9fd336db735482ee29cbb3af3fb",
-      "synced_at": 1786387434
-    },
-    "https://github.com/c3l3si4n/malicious_nuclei_templates": {
-      "head": "d9ba6056cca1856ced29a0d1da47afc8f0c7bc1d",
-      "synced_at": 1786387414
-    },
-    "https://github.com/niranc/Nuclei-personal-templates": {
-      "head": "309510291a22f3ee3820a4ce763c98991d61879a",
-      "synced_at": 1786387434
-    },
-    "https://github.com/ARPSyndicate/kenzer-templates": {
-      "head": "1d4a5bc47d9a3443e3c7df2728639c80c43af764",
-      "synced_at": 1786387414
-    },
-    "https://github.com/securitytest3r/nuclei_templates_work": {
-      "head": "298a4db7c6b6c31ce4988e97ffc6d25975f49607",
-      "synced_at": 1786387414
-    },
-    "https://github.com/zer0yu/Open-PoC": {
-      "head": "77ac1c78ea064f533371afede20979192c7ee5f0",
-      "synced_at": 1786387414
-    },
-    "https://github.com/luck-ying/Library-YAML-POC": {
-      "head": "cfabd0f7bea9c13f881bed7bcd673ab72473ad4d",
-      "synced_at": 1786387414
-    },
-    "https://github.com/notnotnotveg/nuclei-custom-templates": {
-      "head": "4a5b4c6493083a9ec5be9592f36894424353c3ad",
-      "synced_at": 1786387414
-    },
-    "https://github.com/samy1937/mynuclei_templates": {
-      "head": "d3da4eece3da3fd8241b8a89e114fc312f55ecd1",
-      "synced_at": 1786387414
-    },
-    "https://github.com/0xSojalSec/Nuclei-Templates-Collection": {
-      "head": "64666d76bfe3475aa235cdf0b819882407af1c35",
-      "synced_at": 1786387675
-    },
-    "https://github.com/dat-ayush/custom-nuclei-templates": {
-      "head": "48e3b4f1f55f4134efc148d177506070868b308e",
-      "synced_at": 1786387455
-    },
-    "https://github.com/manasmbellani/nuclei-templates": {
-      "head": "94a7d3ac5fd3e4bf22cb8fdf2db0097c8d28c0a6",
-      "synced_at": 1786387414
-    },
-    "https://github.com/UnaPibaGeek/honeypots-detection": {
-      "head": "b2a194f8fccd849733938f0ccc32990d3d93ca2a",
-      "synced_at": 1786387414
-    },
-    "https://github.com/System00-Security/backflow": {
-      "head": "fe0c68ca46b821f6fb502c517925ea47f402bfeb",
-      "synced_at": 1786387414
-    },
-    "https://github.com/narasimha5x5/nuclei-templates": {
-      "head": "1fbfcfc99bb8952b1d6928ce85643e20a10acdd3",
-      "synced_at": 1786387414
-    },
-    "https://github.com/AshiqurEmon/nuclei_templates.git": {
-      "head": "8f3a5f222a09fe8cb12789089281d3ee6da3e765",
-      "synced_at": 1786387414
-    },
-    "https://github.com/dioos886/Nuclei-POC": {
-      "head": "38d38a74be7f94313916fb2849368f189019be89",
-      "synced_at": 1786387414
-    },
-    "https://github.com/Esonhugh/public-nuclei-template": {
-      "head": "6742834bb55ba30aa67704e79897b0f85fa9ade9",
-      "synced_at": 1786387414
-    },
-    "https://github.com/0xAwali/Virtual-Host": {
-      "head": "a2988987751a6ab1f30d71e0d002b7af148c5c79",
-      "synced_at": 1786387414
-    },
-    "https://github.com/ExpLangcn/NucleiTP": {
-      "head": "2b7ecb9031a6eda4f272793045f29b339d8e0cce",
-      "synced_at": 1786387414
-    },
-    "https://github.com/rix4uni/BugBountyTips": {
-      "head": "cf044bd1ed47c466deade12952745d540f01eaee",
-      "synced_at": 1786387414
-    },
-    "https://github.com/kabilan1290/templates": {
-      "head": "e5389616c0339d0709b12dd7c93d3a7f64b15639",
-      "synced_at": 1786387414
-    },
-    "https://github.com/justmumu/SpringShell": {
-      "head": "72de19f6af57db2b3a58d07a03ff93f8e5090fe2",
-      "synced_at": 1786387414
-    },
-    "https://github.com/aels/CVE-2022-37042": {
-      "head": "18c34c27fdf1c2ad5c759853f9e429a1af4e0252",
-      "synced_at": 1786387414
-    },
-    "https://github.com/HernanRodriguez1/ScanReflectedSSTI": {
-      "head": "511540073e3f1b2c4ad87de766d943314c0026d0",
-      "synced_at": 1786387414
-    },
-    "https://github.com/xinZa1/template": {
-      "head": "0a84b1aa415e7cfc6f825afc1d34ca98cabca35a",
-      "synced_at": 1786387414
-    },
-    "https://github.com/wasp76b/nuclei-templates": {
-      "head": "72f13a7c348b23406a65e4f28bcb1344980a4526",
-      "synced_at": 1786387414
-    },
-    "https://github.com/soumya123raj/Nuclei": {
-      "head": "a47e1b162e25d99745ad3b81a195f6dbac45bcf5",
-      "synced_at": 1786387414
-    },
-    "https://github.com/jinji9630/jinjo-nuclei-templates": {
-      "head": "5a03fcf11377216c52b33047e6728ca592e460a4",
-      "synced_at": 1786387455
-    },
-    "https://github.com/UltimateSec/ultimaste-nuclei-templates": {
-      "head": "ddb86832d1d859113eb069cc7e534443daa7abfd",
-      "synced_at": 1786387414
-    },
-    "https://github.com/0xSojalSec/Nuclei-TemplatesNuclei-Templates-CVE-2017-17736": {
-      "head": "30c3597c63586de7a97d7a874f81aa7785394307",
-      "synced_at": 1786387675
-    },
-    "https://github.com/kaanatmacaa/CVE-2024-23897": {
-      "head": "23c330c53cc698854745e6d8255983ee734ea76a",
-      "synced_at": 1786387414
-    },
-    "https://github.com/Str1am/my-nuclei-templates": {
-      "head": "1f07eff2e7f72000d72fb1d99b4744454d241115",
-      "synced_at": 1786387414
-    },
-    "https://github.com/superhexa/nuclei-templates": {
-      "head": "4297c14b2707f219c0ae3fdd5b16c0b365f7e021",
-      "synced_at": 1786387434
-    },
-    "https://github.com/jiankeguyue/nuclei_pocs": {
-      "head": "b6fe26d7a428a41b95ba3c3a51381ae8a9bb6290",
-      "synced_at": 1786387414
-    },
-    "https://github.com/ricardomaia/nuclei-template-generator-for-wordpress-plugins": {
-      "head": "f8cf9eaf3ed81d0323072143e78315b894052909",
-      "synced_at": 1786387414
-    },
-    "https://github.com/DaoShiLingYuGeWu/pxplan": {
-      "head": "fd87ef720bf9e7550512ef22bf1f84c3895e8b1c",
-      "synced_at": 1786387414
-    },
-    "https://github.com/ReksySec/3Nuclei-Templates": {
-      "head": "45c0cb5a5ca5dedadc3400175558773b8ff7f91e",
-      "synced_at": 1786387434
-    },
-    "https://gist.github.com/ResistanceIsUseless/e46848f67706a8aa1205c9d2866bff31": {
-      "head": "07795f9adb3d56978dc3dda6019d00daf8ed796b",
-      "synced_at": 1786387414
-    },
-    "https://github.com/MeowwBox/pxplan": {
-      "head": "fd87ef720bf9e7550512ef22bf1f84c3895e8b1c",
-      "synced_at": 1786387414
-    },
-    "https://github.com/Hunt2behunter/nuclei-templates": {
-      "head": "ace35b06e2804c56700bfafabdbb6e914a853089",
-      "synced_at": 1786387414
-    },
-    "https://github.com/DoubleTakes/nuclei-templates": {
-      "head": "049d612a45d4838830fd918bd83a75fe3993f00b",
-      "synced_at": 1786387414
-    },
-    "https://github.com/EslamMonex/subdomain-takeover": {
-      "head": "0b9671772cd602d56973eb899db4b8c6787d5837",
-      "synced_at": 1786387414
-    },
-    "https://github.com/shubham-rooter/Nuclei-Template-Collection": {
-      "head": "2c66107744639f3c410d4b7eb27b2d43f7e68589",
-      "synced_at": 1786387414
-    },
-    "https://github.com/JoshMorrison99/url-based-nuclei-templates": {
-      "head": "6ec770d58ce70beb38efa1de58d10e382a1729e8",
-      "synced_at": 1786387414
-    },
-    "https://github.com/Caddyshack2175/nuclei-custom-templates": {
-      "head": "1a852e2881d7d6f3e842ba131fdcc86996bb7e6d",
-      "synced_at": 1786387414
-    },
-    "https://github.com/adibarsyad/nuclei-ios": {
-      "head": "a55e5d76b18e7b6e6086216728692601fd7aa329",
-      "synced_at": 1786387434
-    },
-    "https://github.com/geeknik/nuclei-templates-1": {
-      "head": "700b39cc71d4df90c42532bd23b652bb70b4d90f",
-      "synced_at": 1786387414
-    },
-    "https://github.com/mastersir-lab/nuclei-yaml-poc": {
-      "head": "86b836b7baf6123280b7b94afb642f4b6ad45c87",
-      "synced_at": 1786387414
-    },
-    "https://github.com/Sysc4ll3r/CVE-2024-4577": {
-      "head": "0effd93e19d4c7a0ef5a1fee3cfc72bf6ac8e0e9",
-      "synced_at": 1786387434
-    },
-    "https://github.com/akincibor/CVE-2022-27925": {
-      "head": "3e1b1b2c0331f5d4b900a45f9b2c2d81524dbc25",
-      "synced_at": 1786387414
-    },
-    "https://github.com/sardine-web/polaris-web-reflected-xss.git": {
-      "head": "c2e0b5633ab45ad05a9eb87bf27daaeb737bbb27",
-      "synced_at": 1786387434
-    },
-    "https://github.com/thecybertix/Nuclei-templates": {
-      "head": "62499ff8a86106df7a82eb220318821334c90637",
-      "synced_at": 1786387414
-    },
-    "https://github.com/K3ysTr0K3R/Custom-Nuclei-Templates": {
-      "head": "a7793aa9189192eddd35a352041449bb3e98e58b",
-      "synced_at": 1786387434
+      "synced_at": 1786429860
+    },
+    "https://github.com/0xSojalSec/kenzer-templates": {
+      "head": "cd9e6b3f9f095ee29adb8fd3accceb8fef923390",
+      "synced_at": 1786429860
+    },
+    "https://github.com/damon-sec/TCSZ-Nuclei": {
+      "head": "ca8609ef97de8bc092cda8e5eb81f748b8273ba6",
+      "synced_at": 1786429860
     },
     "https://github.com/ree4pwn/my-nuclei-templates": {
       "head": "1eeb47a6de5048960dbe41d257b54a5325598a82",
-      "synced_at": 1786387414
-    },
-    "https://github.com/vishal12300/all_nuclei_templatess": {
-      "head": "bbbb73a226ee53a6946fddd2973176df179af3b1",
-      "synced_at": 1786387434
-    },
-    "https://github.com/ChristianWeiler/custom-nuclei-templates": {
-      "head": "20c5dfb314374a2d01fa97ab962981db5540af07",
-      "synced_at": 1786387414
-    },
-    "https://github.com/hanc00l/some_nuclei_templates": {
-      "head": "3b56f388784377db5246fd7b1b1f0b160a69d666",
-      "synced_at": 1786387434
-    },
-    "https://github.com/xcode0xbug/Nuclei-Private-YAML-Templates": {
-      "head": "4832b8a5a4ebaf1d6f032953d24118f4e9b24c45",
-      "synced_at": 1786387455
-    },
-    "https://github.com/damon-sec/Nuclei-templates-Collection": {
-      "head": "8c1dd2ad0f132a5b15201f77c5fe0073d2ee9bc9",
-      "synced_at": 1786387414
-    },
-    "https://github.com/0xAwali/Blind-SSRF": {
-      "head": "db74e93dc910e87b16721ab6bd436f34ceee48a2",
-      "synced_at": 1786387414
-    },
-    "https://github.com/sl4x0/NC-Templates": {
-      "head": "987e1641d07fe25626adec57f687bc1c92324fd0",
-      "synced_at": 1786387414
-    },
-    "https://github.com/vijay922/XXE-FUZZ": {
-      "head": "999cd3c5e2d1bbd7e063d6a16833f9fd52f9c9d1",
-      "synced_at": 1786387414
-    },
-    "https://github.com/VulnExpo/nuclei-templates": {
-      "head": "142828ca97ecb66d7c87bcec19c6935a90e51645",
-      "synced_at": 1786387414
-    },
-    "https://github.com/JoshMorrison99/my-nuceli-templates": {
-      "head": "2de4cc07af9d3e7221d172aa381c3e15ce4a9591",
-      "synced_at": 1786387414
-    },
-    "https://github.com/polling-repo-continua/KozinTemplates": {
-      "head": "598cab48f1fb48d9c0fb65d86fd82d62c39836c9",
-      "synced_at": 1786387414
-    },
-    "https://github.com/myuyu/nuclei-templates": {
-      "head": "d72427e4ebe3af747380080cb4f8ec270c1e2616",
-      "synced_at": 1786387414
-    },
-    "https://github.com/nikhilhvr/nuclei-templates": {
-      "head": "d8e96b652c26e38cc863f2307eb05ab7812f5f9a",
-      "synced_at": 1786387414
-    },
-    "https://github.com/shifa123/detections": {
-      "head": "554bebb5b765ad6c469cf61a993176015930c4d4",
-      "synced_at": 1786387414
-    },
-    "https://github.com/Red-Darkin/Custom-Nuclei-Templates": {
-      "head": "f4e0ccf100c4c517b6a23909548c71efe3732b96",
-      "synced_at": 1786387414
-    },
-    "https://github.com/tgr420/nuclei-templates": {
-      "head": "538595a1aa1c98a72bbbc04c633abf28bfd5c02d",
-      "synced_at": 1786387455
-    },
-    "https://github.com/dk4trin/templates-nuclei": {
-      "head": "f2d5fe48921683f165dc0ce549aedebca6315717",
-      "synced_at": 1786387414
-    },
-    "https://github.com/smaranchand/nuclei-templates": {
-      "head": "4ee444967714d61e78e22426d37a040452c32f88",
-      "synced_at": 1786387414
-    },
-    "https://github.com/0xElkot/My-Nuclei-Templates": {
-      "head": "cfecd9da4928c39b6ebaf6dd91667be4ac2d3ea4",
-      "synced_at": 1786387414
-    },
-    "https://github.com/Gotcha-1G/CVE-2022-42889": {
-      "head": "37579e8bc909dc86f61a77244788d4477213264b",
-      "synced_at": 1786387414
-    },
-    "https://github.com/panch0r3d/nuclei-templates": {
-      "head": "700b39cc71d4df90c42532bd23b652bb70b4d90f",
-      "synced_at": 1786387414
-    },
-    "https://github.com/badboycxcc/CVE-2023-24100": {
-      "head": "b4d2c84ec8eb06beadeda72ad9f35802d6a3bfc3",
-      "synced_at": 1786387414
-    },
-    "https://github.com/c-sh0/nuclei_templates": {
-      "head": "8a2544b000bec0fcc2c7848a933be3bc5858fb3f",
-      "synced_at": 1786387414
-    },
-    "https://github.com/ekinsb/Nuclei-Templates": {
-      "head": "677de20c7d9df0c411d5130007067e2b3e94f789",
-      "synced_at": 1786387414
-    },
-    "https://github.com/iamHuFei/HVVault": {
-      "head": "4558fdb3abb024e701da0ad76816c6083ab91871",
-      "synced_at": 1786387414
-    },
-    "https://github.com/l1b3ri/nuclei-poc": {
-      "head": "6f782d51b3b77f35d3df17a20aaca43922d8ecfb",
-      "synced_at": 1786387414
-    },
-    "https://github.com/MrCl0wnLab/Nuclei-Template-Exploit-F5-BIG-IP-iControl-REST-Auth-Bypass-RCE-Command-Parameter": {
-      "head": "3833bda0e24c4bbb5fd15c9e907a609bd1173135",
-      "synced_at": 1786387414
-    },
-    "https://github.com/nullfuzz-pentest/custom-nuclei-templates": {
-      "head": "77dc277ffbd8a17ff869ffd57bad8fef29f34022",
-      "synced_at": 1786387414
-    },
-    "https://github.com/topscoder/nuclei-zero-day": {
-      "head": "dba312415750d0fb39cf29dc6527cd68de96f85c",
-      "synced_at": 1786387414
-    },
-    "https://github.com/geeknik/the-nuclei-templates": {
-      "head": "36a6d14bce3293907a83afb498caec5fd45b1777",
-      "synced_at": 1786387414
-    },
-    "https://github.com/zan8in/pxplan": {
-      "head": "fd87ef720bf9e7550512ef22bf1f84c3895e8b1c",
-      "synced_at": 1786387414
-    },
-    "https://github.com/p3n73st3r/Nuclei-Templates": {
-      "head": "fb583451ba118dc5a839cbb442b4cfcfd3ed92aa",
-      "synced_at": 1786387414
-    },
-    "https://github.com/badboy-sft/badboy_17-Nuclei-Templates-Collection": {
-      "head": "021781b0fd3403a91b279113f3c23732ef2a3c52",
-      "synced_at": 1786387414
-    },
-    "https://github.com/tamimhasan404/Open-Source-Nuclei-Templates-Downloader": {
-      "head": "eb85e09b7f42222d4c6ae96edd0706ff6d4ff93f",
-      "synced_at": 1786387414
-    },
-    "https://github.com/sudouday/nuclei-templates": {
-      "head": "75697cec5dc5fa6a5a48cbddd46e355ff1853865",
-      "synced_at": 1786387414
-    },
-    "https://github.com/andersonmv/Nuclei_Templates": {
-      "head": "9576562ce0173a152f53495656696b55825821d6",
-      "synced_at": 1786387434
-    },
-    "https://github.com/Josekutty-K/nuclei-templates": {
-      "head": "819584e6ebdeb072357c2668274a8e0914aea1db",
-      "synced_at": 1786387434
-    },
-    "https://github.com/optiv/mobile-nuclei-templates": {
-      "head": "6d19c46bae7c07df5120fcbe59239559fd2a6c7e",
-      "synced_at": 1786387414
-    },
-    "https://github.com/Ra7mo0on/nuclei-templates": {
-      "head": "6719bcf92eab5fc582cd9574255ae0ff531441cc",
-      "synced_at": 1786387434
-    },
-    "https://github.com/0xSojalSec/Nuclei-Templates-API-Linkfinder": {
-      "head": "1d5ac6411a0119697ebd644092542a2703bc1242",
-      "synced_at": 1786387675
-    },
-    "https://github.com/zerbaliy3v/custom-nuclei-templates": {
-      "head": "12d3c8c69d0e15f41d4c07c0422c2192c8da5aa6",
-      "synced_at": 1786387414
-    },
-    "https://github.com/stuxctf/nuclei-templates-stux": {
-      "head": "3d9f753a334387f96a765542f568d0bd5fb86d3f",
-      "synced_at": 1786387434
-    },
-    "https://github.com/valaDevs/nuclei-backupfile-finder": {
-      "head": "bc110f395cac81dc4f7e69565eb3c0430fa8d8f9",
-      "synced_at": 1786387414
-    },
-    "https://github.com/juanschallibaum/CVE-2024-38473-Nuclei-Template": {
-      "head": "327d6d314fd5f2adc3890185139c68d5022e3924",
-      "synced_at": 1786387434
-    },
-    "https://github.com/Lopseg/nuclei-c-templates": {
-      "head": "f00b24d32acdda7ab39d9fa54f198909172ade66",
-      "synced_at": 1786387414
-    },
-    "https://github.com/k00kx/nuclei-templates": {
-      "head": "f0dc6c5f0071f37272006622a15847fce5273001",
-      "synced_at": 1786387414
-    },
-    "https://github.com/glyptho/templatesallnuclei": {
-      "head": "68ce46f4e777e1bd1056361594527271542e02d4",
-      "synced_at": 1786387414
-    },
-    "https://github.com/KeepHowling/all_freaking_nuclei_templates": {
-      "head": "b374318732b6922f72d327c57451a7d30973c0c6",
-      "synced_at": 1786387414
-    },
-    "https://github.com/SecTheBit/CVE-2022-1388": {
-      "head": "25e6c6efe5405044ffdb6502ad09e7a3df61456a",
-      "synced_at": 1786387414
-    },
-    "https://github.com/bhataasim1/PersonalTemplates": {
-      "head": "1f6850a4a38c5a8b8bc5c79b13c7d8ec0bbd97e6",
-      "synced_at": 1786387414
+      "synced_at": 1786429725
     },
     "https://github.com/SumedhDawadi/Nuclei_Template_Subdomain_Takeover": {
       "head": "d821c0ffa139d009fcf30749478b583b0bf42955",
-      "synced_at": 1786387414
+      "synced_at": 1786429860
     },
-    "https://github.com/freakyclown/Nuclei_templates": {
-      "head": "f6aa4838234ae171fde6e2e7e2809444fba705f1",
-      "synced_at": 1786387414
-    },
-    "https://github.com/shubham-rooter/Nuclei-custom-templates": {
-      "head": "5d7dfb9e80a5ec328023769d3c7e321d1f14b6f4",
-      "synced_at": 1786387414
-    },
-    "https://github.com/vsh00t/nuclei-templates": {
-      "head": "db94bb6fed010a6ff455ad21a80d86dc35369d4a",
-      "synced_at": 1786387434
-    },
-    "https://github.com/Sachinart/manual-nuclei-templates": {
-      "head": "cca08188dd4f2dc85784336b33ad2b2ebdd19254",
-      "synced_at": 1786387434
-    },
-    "https://github.com/CharanRayudu/Custom-Nuclei-Templates": {
-      "head": "6418cf9ac43a7d4121d979ae9afb12f54511729e",
-      "synced_at": 1786387414
-    },
-    "https://github.com/kh4sh3i/CVE-2022-23131": {
-      "head": "968cb4c7de7db689c9b4598ca359d31b13a54eda",
-      "synced_at": 1786387414
-    },
-    "https://github.com/toramanemre/log4j-rce-detect-waf-bypass": {
-      "head": "3b5071ff65a6366851586e197b01d0824f57e77e",
-      "synced_at": 1786387414
-    },
-    "https://github.com/websecresearch/nucleirecordloginsession": {
-      "head": "8bc53984ac7026814320e4ffca0305ca63d5e7ec",
-      "synced_at": 1786387434
-    },
-    "https://github.com/MikeeI/nuclei-templates": {
-      "head": "58b8a9dbf06c701119ba9aaf5e9e6ec2350bc062",
-      "synced_at": 1786387414
-    },
-    "https://github.com/Tykerdestroy/Bug-bounty-custom-templates": {
-      "head": "090c636c6f8af5e2dfe8017ab851656600a8ea02",
-      "synced_at": 1786387414
-    },
-    "https://github.com/0x20c/CVE-2024-4577-nuclei": {
-      "head": "e89ec3c16e306f0bcd005a2143792bd4b5234037",
-      "synced_at": 1786387434
-    },
-    "https://github.com/Hack4rLIFE/CVE-2022-42889": {
-      "head": "37579e8bc909dc86f61a77244788d4477213264b",
-      "synced_at": 1786387414
-    },
-    "https://github.com/0xdln1/nuclei-templates": {
-      "head": "3c6bf8733fda739108d03a442c449c6bd50858d5",
-      "synced_at": 1786387434
-    },
-    "https://github.com/nocomp/nuclei-templates": {
-      "head": "c8a50b898e8da2a11743bbf138b696176cacf1ae",
-      "synced_at": 1786387434
-    },
-    "https://github.com/ViktorMares/geoserver-nuclei-template": {
-      "head": "13bda601389d5743e16bac2b769d88f4b4b499cc",
-      "synced_at": 1786387675
-    },
-    "https://github.com/ping-0day/templates": {
-      "head": "12b2f24d1b2fc6314ee62dcf992128f0d427778f",
-      "synced_at": 1786387414
-    },
-    "https://github.com/blazeinfosec/nuclei-templates": {
-      "head": "2354a3f19ae68c870c4b7454abc7f5ce18b50e9c",
-      "synced_at": 1786387414
-    },
-    "https://github.com/ayadim/Nuclei-bug-hunter": {
-      "head": "0f1b672ef1bf56975e881c68ea4385fe7c84780f",
-      "synced_at": 1786387414
-    },
-    "https://github.com/W01fh4cker/nucleiTemplatesClassifier": {
-      "head": "dcec3c80098e80a698665cf65eaeda5126a03962",
-      "synced_at": 1786387414
-    },
-    "https://github.com/chouaibhm/foulenzer-templates": {
-      "head": "67e1e20b50d623fa1e0b655b17f081ade20733c0",
-      "synced_at": 1786387414
-    },
-    "https://github.com/ibaiw/nuclei_templates": {
-      "head": "63e00de4f3234e8602cbc2a22b10c334a4d99b41",
-      "synced_at": 1786387414
-    },
-    "https://github.com/z3bd/nuclei-templates": {
-      "head": "a0ef427b78571c9fef2fe5c41f015ee932fa9524",
-      "synced_at": 1786387414
+    "https://github.com/thecyberneh/nuclei-templatess": {
+      "head": "91801da079df83b43016ad35ed182b517e09aa36",
+      "synced_at": 1786429725
     },
     "https://github.com/narasimhareddy5x5/nuclei-templates": {
       "head": "1fbfcfc99bb8952b1d6928ce85643e20a10acdd3",
-      "synced_at": 1786387414
-    },
-    "https://github.com/reewardius/log4shell-templates": {
-      "head": "90140071bbc906c56effa3c0d407804e19e4321c",
-      "synced_at": 1786387414
-    },
-    "https://github.com/b4dboy17/badboy_17-Nuclei-Templates-Collection": {
-      "head": "021781b0fd3403a91b279113f3c23732ef2a3c52",
-      "synced_at": 1786387414
-    },
-    "https://github.com/0xPugazh/my-nuclei-templates": {
-      "head": "800d311a2a51fb2ebbe26fe7bfd6c24a8f3934b1",
-      "synced_at": 1786387414
-    },
-    "https://github.com/h4ndsh/nuclei-templates": {
-      "head": "7c050adaabdb2c6b83ddbdb5dfd469e3fd3eed15",
-      "synced_at": 1786387414
-    },
-    "https://github.com/pikpikcu/my-nuclei-templates": {
-      "head": "b0c7a352da6055fe80dd3594e8a5351f4d19e20d",
-      "synced_at": 1786387414
-    },
-    "https://github.com/randomstr1ng/nuclei-sap-templates": {
-      "head": "45f04b6d5b902463e5d85b3d19e2c486db0ebbb8",
-      "synced_at": 1786387414
-    },
-    "https://github.com/Christbowel/CVE-2024-25600_Nuclei-Template": {
-      "head": "099b4f9b068778dc979c9b06bddb23e84a628c6f",
-      "synced_at": 1786387414
-    },
-    "https://github.com/Sajibekanti/Nuclei_templates": {
-      "head": "d70d4394629ffb2e25a3f0e335a49400e4720b1e",
-      "synced_at": 1786387434
-    },
-    "https://github.com/stevemason/nuclei-template-forked-daapd-path-traversal": {
-      "head": "c5ba146afa659c59b1c1afa47cf20a57e8c57688",
-      "synced_at": 1786387414
-    },
-    "https://github.com/binod235/nuclei-templates-and-reports": {
-      "head": "09108f002769436a4526e364eb061db18b75d522",
-      "synced_at": 1786387414
-    },
-    "https://github.com/k3ppf0r/2024-PocLib": {
-      "head": "f64375e23082dff16b86ab07b2f452bd7156a31d",
-      "synced_at": 1786387414
-    },
-    "https://github.com/0xPugal/my-nuclei-templates": {
-      "head": "800d311a2a51fb2ebbe26fe7bfd6c24a8f3934b1",
-      "synced_at": 1786387434
-    },
-    "https://github.com/YashVardhanTrip/nuclei-templates-initial-access": {
-      "head": "862e73acad3cedabde5924e43e9d027f4cc54116",
-      "synced_at": 1786387434
-    },
-    "https://github.com/javaongsan/nuclei-templates": {
-      "head": "254bfb278a124903407f78fd6f364aba070a5487",
-      "synced_at": 1786387414
-    },
-    "https://github.com/solo10010/solo-nuclei-templates": {
-      "head": "6a7c49dc9c1e5f18e05d6d83f3ea116221c7b216",
-      "synced_at": 1786387414
-    },
-    "https://github.com/c3rrberu5/CVE-2024-24919": {
-      "head": "e855fad408b47dbce9079778af7b79764cbbc5b0",
-      "synced_at": 1786387434
-    },
-    "https://github.com/kh4sh3i/Webmin-CVE": {
-      "head": "818c928f775982e92f8fa687b8821c792729d5a2",
-      "synced_at": 1786387414
-    },
-    "https://github.com/d3sca/Nuclei_Templates": {
-      "head": "33d689c253b04cef78ead4940a911ecb30ae2009",
-      "synced_at": 1786387414
-    },
-    "https://github.com/0xmaximus/final_freaking_nuclei_templates": {
-      "head": "fa0a415abd48c69e792e41d49b7a117d193a1a14",
-      "synced_at": 1786387414
-    },
-    "https://github.com/U53RW4R3/nuclei-fuzzer-templates": {
-      "head": "55c21c3a053b9897a24e3c26fe529cfaf665f2e2",
-      "synced_at": 1786387414
-    },
-    "https://github.com/nvsecurity/nightvision-nuclei-templates": {
-      "head": "58207fd82e4e073f861ebcdd214f0d51eb3cbb18",
-      "synced_at": 1786387414
+      "synced_at": 1786429860
     },
     "https://github.com/GlennPegden2/misc-nuclei-scripts": {
       "head": "33241b974c701d9a9bdcffcc8f06705b2af28787",
-      "synced_at": 1786387414
+      "synced_at": 1786429860
     },
-    "https://github.com/MrCl0wnLab/Nuclei-Template-CVE-2022-1388-BIG-IP-iControl-REST-Exposed": {
-      "head": "f4355c15434afe2cdb2ecbb6f3fcadb5d1488b80",
-      "synced_at": 1786387414
+    "https://github.com/valaDevs/nuclei-backupfile-finder": {
+      "head": "bc110f395cac81dc4f7e69565eb3c0430fa8d8f9",
+      "synced_at": 1786429860
     },
-    "https://github.com/0xSojalSec/templates-nuclei-Oracle-OAM---XSS": {
-      "head": "b48e003161e37e8d95c074f4fd2511f44cbd521b",
-      "synced_at": 1786387675
+    "https://github.com/mdube99/nuclei-templates": {
+      "head": "0f1d2878268a3fb6dd2da63278d882dbc52425ca",
+      "synced_at": 1786429860
     },
-    "https://github.com/1in9e/my-nuclei-templates": {
-      "head": "f1a5d8da08d0c5240569083cba056fe5f11d1bca",
-      "synced_at": 1786387414
+    "https://github.com/ptyspawnbinbash/template-enhancer": {
+      "head": "0a94180d625a5ceabcc5541bb78f2dfc2ca4ed9e",
+      "synced_at": 1786429860
     },
-    "https://github.com/rhbb/nuclei-poc": {
-      "head": "aabe76233727a38446a9993ef9caa10ced09a594",
-      "synced_at": 1786387414
+    "https://github.com/reewardius/interested-nuclei-templates": {
+      "head": "06020a37812daf7a2d0eb9e1f367614dab5e57be",
+      "synced_at": 1786429860
     },
-    "https://github.com/schooldropout1337/nuclei-templates": {
-      "head": "ad52abee61d5f79fb95c0312618889e119a07f24",
-      "synced_at": 1786387414
+    "https://github.com/erickfernandox/nuclei-templates": {
+      "head": "0db9813362091be34dc30b4988b7bb76b2a2b421",
+      "synced_at": 1786429860
     },
-    "https://github.com/BeRserKerSec/CVE-2021-26084-Nuclei-template": {
-      "head": "c4eb95ea789cd13e536fd302f1ab165f1a13ca18",
-      "synced_at": 1786387414
+    "https://github.com/ReksySec/3Nuclei-Templates": {
+      "head": "45c0cb5a5ca5dedadc3400175558773b8ff7f91e",
+      "synced_at": 1786429860
     },
-    "https://github.com/0xSojalSec/nuclei_templates-SymfonyRCE": {
-      "head": "7d6e3a3105a3f8e09efb7da3718263a205cc14d8",
-      "synced_at": 1786387675
+    "https://github.com/Term1N8/nuclei-templates": {
+      "head": "b93bcf91fd83d1d2aab3f211dd86443fbcb02bfd",
+      "synced_at": 1786429860
     },
-    "https://github.com/daffainfo/my-nuclei-templates": {
-      "head": "3e0cef960563e2aae4b8a8a14aa60208042e72f2",
-      "synced_at": 1786387414
+    "https://github.com/thanhnx9/nuclei-templates-cutomer": {
+      "head": "bd0ee6c2e017adbca347a5c1b251d511ca2a9cac",
+      "synced_at": 1786429860
     },
     "https://github.com/umityn/my-nuclei-templates": {
       "head": "7136a9460fdb398a5a15a92d66d39dd8ee0b72e7",
-      "synced_at": 1786387414
+      "synced_at": 1786429860
     },
-    "https://github.com/0xSojalSec/nuclei-templates-4": {
-      "head": "72f13a7c348b23406a65e4f28bcb1344980a4526",
-      "synced_at": 1786387675
+    "https://github.com/c-sh0/nuclei_templates": {
+      "head": "8a2544b000bec0fcc2c7848a933be3bc5858fb3f",
+      "synced_at": 1786429725
     },
-    "https://github.com/themoonbaba/private_templates": {
-      "head": "ce5ba4542ee9c1b4d8059673cf32d994425f3273",
-      "synced_at": 1786387414
+    "https://github.com/chouaibhm/foulenzer-templates": {
+      "head": "67e1e20b50d623fa1e0b655b17f081ade20733c0",
+      "synced_at": 1786429860
     },
-    "https://github.com/ethicalhackingplayground/erebus-templates": {
-      "head": "7acfaf027a2c38b1505f96af1e642ac49858e6b7",
-      "synced_at": 1786387414
+    "https://github.com/learnerboy88/CVE-2023-29489": {
+      "head": "27f86fcb2c4ef157898c234dc0da850506c47bb1",
+      "synced_at": 1786429860
     },
-    "https://github.com/Rabb1ter/nuclei-templates": {
-      "head": "45184ae6973ccd977e217a78763829eed9a1d1d6",
-      "synced_at": 1786387414
+    "https://github.com/0xAwali/Virtual-Host": {
+      "head": "a2988987751a6ab1f30d71e0d002b7af148c5c79",
+      "synced_at": 1786429725
     },
-    "https://github.com/xenigmus/nuclei-installer": {
-      "head": "14943790ee57d4111022ef8641d037c36c94749e",
-      "synced_at": 1786387675
+    "https://github.com/MrCl0wnLab/Nuclei-Template-Exploit-F5-BIG-IP-iControl-REST-Auth-Bypass-RCE-Command-Parameter": {
+      "head": "3833bda0e24c4bbb5fd15c9e907a609bd1173135",
+      "synced_at": 1786429860
     },
-    "https://github.com/praetorian-inc/chariot-launch-nuclei-templates": {
-      "head": "42f2b17b1febf3254a164205be46f794242d21b8",
-      "synced_at": 1786387414
+    "https://github.com/RajaUzairAbdullah/nuclei-templates": {
+      "head": "75e8dc8ebca720b249c4394a1de01e88e84ebbde",
+      "synced_at": 1786429860
     },
-    "https://github.com/baharebenesbordi/Nuclei-Templates": {
-      "head": "6a76205b785c2c00e9b936136ceef40d5cd561f4",
-      "synced_at": 1786387414
-    },
-    "https://github.com/boobooHQ/private_templates": {
-      "head": "ce5ba4542ee9c1b4d8059673cf32d994425f3273",
-      "synced_at": 1786387414
-    },
-    "https://github.com/bufferbandit/gitScanNucleiTemplate": {
-      "head": "14b7c8cc5e773c26ed7e5fad9ac2fd1d0fee7054",
-      "synced_at": 1786387414
+    "https://github.com/smaranchand/nuclei-templates": {
+      "head": "4ee444967714d61e78e22426d37a040452c32f88",
+      "synced_at": 1786429725
     },
     "https://github.com/v3l4r10/Nuclei-Templates": {
       "head": "5a61e0f1e5d1070951c668c374001aa31e449755",
-      "synced_at": 1786387414
+      "synced_at": 1786429860
     },
-    "https://github.com/coldrainh/nuclei-ByMyself": {
-      "head": "c11e8650ea4e3714113a1a064f7888df1e5934d0",
-      "synced_at": 1786387414
+    "https://github.com/Deep2142004/Nuclei-Templates": {
+      "head": "9863950386773fb0fd79f276499258530aa6aca9",
+      "synced_at": 1786429860
     },
-    "https://github.com/brinhosa/brinhosa-nuclei-templates": {
-      "head": "53f8b755245fe0b534085352bf7838e38c75c6f8",
-      "synced_at": 1786387414
+    "https://github.com/zodmagus/z0ds3c-Nuclei-Templates": {
+      "head": "5f1a9eeeff0c68e477b55e9af20bf34c35cf6654",
+      "synced_at": 1786429860
     },
-    "https://github.com/MR-pentestGuy/nuclei-templates": {
-      "head": "2b50cf9bbb94812322c8513c2053a6a6403ecd6d",
-      "synced_at": 1786387414
+    "https://github.com/myuyu/nuclei-templates": {
+      "head": "d72427e4ebe3af747380080cb4f8ec270c1e2616",
+      "synced_at": 1786429860
+    },
+    "https://github.com/mertugur/nuclei-templates": {
+      "head": "f618f4f828adb8e042d7be070965412fe5ac77dd",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Hack4rLIFE/CVE-2022-42889": {
+      "head": "37579e8bc909dc86f61a77244788d4477213264b",
+      "synced_at": 1786429860
+    },
+    "https://github.com/vidocsecurity/templates": {
+      "head": "8f95da7d7c4bf8d553d8fb8625c05be895d3b1d5",
+      "synced_at": 1786429860
+    },
+    "https://github.com/hanc00l/some_nuclei_templates": {
+      "head": "3b56f388784377db5246fd7b1b1f0b160a69d666",
+      "synced_at": 1786429860
+    },
+    "https://github.com/kh4sh3i/Nextcloud-Pentesting": {
+      "head": "5674cd7597b2f4f6a694c584028cea365a926bf6",
+      "synced_at": 1786429860
+    },
+    "https://github.com/coffinxp/nuclei-templates": {
+      "head": "53b8c08aeb1e972a10a8e51bb5d76dd792254fcd",
+      "synced_at": 1786429860
+    },
+    "https://github.com/SalehLardhi/nuclei-wp-config-php": {
+      "head": "976fa44f6ade5acd3ae46180985f82e0a4db56f4",
+      "synced_at": 1786429860
+    },
+    "https://github.com/obreinx/nuceli-templates": {
+      "head": "a2a32761e5a05d3c92cd7b80403bb0346bb1682a",
+      "synced_at": 1786429725
+    },
+    "https://github.com/dk4trin/templates-nuclei": {
+      "head": "f2d5fe48921683f165dc0ce549aedebca6315717",
+      "synced_at": 1786429725
+    },
+    "https://github.com/edoardottt/missing-cve-nuclei-templates": {
+      "head": "9935a350ddb1401a46806ef45a2fbb1e62618529",
+      "synced_at": 1786429860
+    },
+    "https://github.com/madisec/nuclei-templates": {
+      "head": "18a2e7e4ef8270b53976ade35bce923dbfca05bc",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Josekutty-K/nuclei-templates": {
+      "head": "819584e6ebdeb072357c2668274a8e0914aea1db",
+      "synced_at": 1786429860
+    },
+    "https://github.com/reewardius/nuclei-special-templates": {
+      "head": "76225eaae33c414fe504a85f2b254e82d7ac5283",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Ra7mo0on/nuclei-templates": {
+      "head": "6719bcf92eab5fc582cd9574255ae0ff531441cc",
+      "synced_at": 1786429860
+    },
+    "https://github.com/microphone-mathematics/custom-nuclei-templates": {
+      "head": "0564c3f6bf3a87c3c4bac8bb218fc0c8df36a37b",
+      "synced_at": 1786429860
+    },
+    "https://github.com/NoRed0x/nored0x-Nuclei-Templates": {
+      "head": "a634df4158df53e9030e49944ffb7cb27cd6d6fd",
+      "synced_at": 1786429860
+    },
+    "https://github.com/mdsabbirkhan/0xPugazh-my-nuclei-templates": {
+      "head": "2b98a3215c9dd96aa9c503774b0df781f5665993",
+      "synced_at": 1786429860
+    },
+    "https://github.com/glyptho/templatesallnuclei": {
+      "head": "68ce46f4e777e1bd1056361594527271542e02d4",
+      "synced_at": 1786429725
+    },
+    "https://github.com/nocomp/nuclei-templates": {
+      "head": "c8a50b898e8da2a11743bbf138b696176cacf1ae",
+      "synced_at": 1786429860
+    },
+    "https://github.com/0x71rex/0-fuzzing-templates": {
+      "head": "444d05611ff98539c61199e1e8a77d1ba0dc8baf",
+      "synced_at": 1786429860
+    },
+    "https://github.com/vsh00t/nuclei-templates": {
+      "head": "db94bb6fed010a6ff455ad21a80d86dc35369d4a",
+      "synced_at": 1786429860
+    },
+    "https://github.com/r3dcl1ff/Symfony-Fuck": {
+      "head": "15c7a9b01b137ace0d3f969a403a00586386f936",
+      "synced_at": 1786429860
+    },
+    "https://github.com/abh2technology/abh2-custom-templates-nucleiengine": {
+      "head": "c7ba146f8016161974a9cf9f812ae7f225d23065",
+      "synced_at": 1786429860
+    },
+    "https://github.com/erengozaydin/Nuclei-Templates": {
+      "head": "a9dc4843abd7be8e819c43d6b683f201cc6981b4",
+      "synced_at": 1786429860
     },
     "https://github.com/JohnDoeAnonITA/NucleiTemplatePRV": {
       "head": "e5e8f2d20e114a02c17f1f0a42e6f9e1454d21a2",
-      "synced_at": 1786387414
+      "synced_at": 1786429860
+    },
+    "https://github.com/d3sca/Nuclei_Templates": {
+      "head": "33d689c253b04cef78ead4940a911ecb30ae2009",
+      "synced_at": 1786429725
+    },
+    "https://github.com/numanturle/CVE-2022-41040": {
+      "head": "09b56a987fd2d882b1325c18d637ffe0a92ce4b4",
+      "synced_at": 1786429860
+    },
+    "https://github.com/sl4x0/NC-Templates": {
+      "head": "987e1641d07fe25626adec57f687bc1c92324fd0",
+      "synced_at": 1786429725
+    },
+    "https://github.com/zerbaliy3v/custom-nuclei-templates": {
+      "head": "12d3c8c69d0e15f41d4c07c0422c2192c8da5aa6",
+      "synced_at": 1786429860
+    },
+    "https://github.com/kh4sh3i/nuclei-templates": {
+      "head": "a6d7b30a492d27ecfab5d0273da3db12eab468d0",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Anguvia/pxplan": {
+      "head": "fd87ef720bf9e7550512ef22bf1f84c3895e8b1c",
+      "synced_at": 1786429860
+    },
+    "https://github.com/DaoShiLingYuGeWu/pxplan": {
+      "head": "fd87ef720bf9e7550512ef22bf1f84c3895e8b1c",
+      "synced_at": 1786429860
+    },
+    "https://github.com/hughink/nuclei-poc": {
+      "head": "7786dafceb779252baa2dc088b155702b4a59c91",
+      "synced_at": 1786429860
+    },
+    "https://github.com/shubham-rooter/Nuclei-Template-Collection": {
+      "head": "2c66107744639f3c410d4b7eb27b2d43f7e68589",
+      "synced_at": 1786429860
+    },
+    "https://github.com/ping-0day/templates": {
+      "head": "12b2f24d1b2fc6314ee62dcf992128f0d427778f",
+      "synced_at": 1786429725
+    },
+    "https://github.com/optiv/mobile-nuclei-templates": {
+      "head": "6d19c46bae7c07df5120fcbe59239559fd2a6c7e",
+      "synced_at": 1786429725
+    },
+    "https://github.com/juanschallibaum/CVE-2024-38473-Nuclei-Template": {
+      "head": "327d6d314fd5f2adc3890185139c68d5022e3924",
+      "synced_at": 1786429860
+    },
+    "https://github.com/nvsecurity/nightvision-nuclei-templates": {
+      "head": "58207fd82e4e073f861ebcdd214f0d51eb3cbb18",
+      "synced_at": 1786429860
+    },
+    "https://github.com/wasp76b/nuclei-templates": {
+      "head": "72f13a7c348b23406a65e4f28bcb1344980a4526",
+      "synced_at": 1786429725
+    },
+    "https://github.com/Facucuervo87/openssl-3.0.4-template": {
+      "head": "bf7b0cb8b3ac7fcd60370e92926487de3ce87f6e",
+      "synced_at": 1786429860
+    },
+    "https://github.com/rum3ch/Ae86": {
+      "head": "e7e5b5e36cac676bc98dc9ce7e1823e317a215e5",
+      "synced_at": 1786429860
+    },
+    "https://github.com/sudouday/nuclei-templates": {
+      "head": "75697cec5dc5fa6a5a48cbddd46e355ff1853865",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Lopseg/nuclei-c-templates": {
+      "head": "f00b24d32acdda7ab39d9fa54f198909172ade66",
+      "synced_at": 1786429725
+    },
+    "https://github.com/Mamilate/3-Nuclei-Templates": {
+      "head": "b384c95e8d48586f782fde430cfc349ad4d733e8",
+      "synced_at": 1786429860
+    },
+    "https://github.com/bugbountydude/Nuclei-TamplatesBackup": {
+      "head": "5b11129134e315fec1d8e8e09b8f468254fa654c",
+      "synced_at": 1786429860
+    },
+    "https://github.com/c3rrberu5/CVE-2024-24919": {
+      "head": "e855fad408b47dbce9079778af7b79764cbbc5b0",
+      "synced_at": 1786429860
+    },
+    "https://github.com/yarovit-developer/nuclei-templates": {
+      "head": "068d3a34c5a3e556f2b36cd70903b2fb7d0cc7e8",
+      "synced_at": 1786429725
+    },
+    "https://github.com/0xSojalSec/nuclei-templates-websphere-portal-preauth-ssrf": {
+      "head": "dd3d121bac81b219eb43af91e5018992c3727416",
+      "synced_at": 1786429860
+    },
+    "https://github.com/iamHuFei/HVVault": {
+      "head": "4558fdb3abb024e701da0ad76816c6083ab91871",
+      "synced_at": 1786429860
+    },
+    "https://github.com/soumya123raj/Nuclei": {
+      "head": "a47e1b162e25d99745ad3b81a195f6dbac45bcf5",
+      "synced_at": 1786429725
+    },
+    "https://github.com/marcositu/nuclei-custom-templates": {
+      "head": "2fd3857b65e0a942ff44ee4503b8fbcf5af0a1f5",
+      "synced_at": 1786429860
+    },
+    "https://github.com/U53RW4R3/nuclei-fuzzer-templates": {
+      "head": "55c21c3a053b9897a24e3c26fe529cfaf665f2e2",
+      "synced_at": 1786429860
+    },
+    "https://github.com/0xBl4nk/ssti-detection-nuclei": {
+      "head": "9755c539383ca556679a313282dffcbc67005ef7",
+      "synced_at": 1786429860
+    },
+    "https://github.com/DiabloHTB/Nuclei-Template-CVE-2024-1561": {
+      "head": "97c132094f7b210f5f93b8aebf8ab8b3e3b169ee",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Anja-dhnd/templates4nuclei": {
+      "head": "3bd12430492d154adfd07c433bc6721734f7f823",
+      "synced_at": 1786429860
+    },
+    "https://github.com/c3l3si4n/malicious_nuclei_templates": {
+      "head": "d9ba6056cca1856ced29a0d1da47afc8f0c7bc1d",
+      "synced_at": 1786429860
+    },
+    "https://github.com/fostane/my-nuclei-templates-1": {
+      "head": "811e9b274f88e47ba263a93595f1bfca57284fb8",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Dalaho-bangin/my_nuclei_templates": {
+      "head": "6f6de15f8b54861b81f465d7d2d12735e67b1a4b",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Erenlancaster/CVE-2021-46704": {
+      "head": "7198206e0264418e98781c39a8c02ec747c70b82",
+      "synced_at": 1786429860
+    },
+    "https://github.com/lliwi/nuclei-repo-hunter": {
+      "head": "8dd698c9c680bc1b7170dbb6d4908f1fa16faeab",
+      "synced_at": 1786429860
+    },
+    "https://github.com/SirBugs/Priv8-Nuclei-Templates": {
+      "head": "316910ea67eb57eac0bb24a0520fb56f6a927bea",
+      "synced_at": 1786429860
+    },
+    "https://github.com/samy1937/mynuclei_templates": {
+      "head": "d3da4eece3da3fd8241b8a89e114fc312f55ecd1",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Sysc4ll3r/CVE-2024-4577": {
+      "head": "0effd93e19d4c7a0ef5a1fee3cfc72bf6ac8e0e9",
+      "synced_at": 1786429860
+    },
+    "https://github.com/ChristianWeiler/custom-nuclei-templates": {
+      "head": "20c5dfb314374a2d01fa97ab962981db5540af07",
+      "synced_at": 1786429860
+    },
+    "https://github.com/shifa123/detections": {
+      "head": "554bebb5b765ad6c469cf61a993176015930c4d4",
+      "synced_at": 1786429725
+    },
+    "https://github.com/zan8in/afrog": {
+      "head": "3ea4d34414bcc09b9e25a3f338294eca87e178ce",
+      "synced_at": 1786429860
+    },
+    "https://github.com/sadnansakin/my-nuclei-templates": {
+      "head": "72fc404ef843f6a78fe72c986860c5b309842c9c",
+      "synced_at": 1786429725
+    },
+    "https://github.com/bmjoker/Nuclei2use": {
+      "head": "b8674e4df2efbeb5a1b9e1b8ac0bffec20e4efe8",
+      "synced_at": 1786429860
+    },
+    "https://github.com/banditzCyber0x/template": {
+      "head": "ee725eddee2aeee470f79ff030adbb2627d28232",
+      "synced_at": 1786429860
+    },
+    "https://github.com/MeowwBox/pxplan": {
+      "head": "fd87ef720bf9e7550512ef22bf1f84c3895e8b1c",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Sajibekanti/Nuclei_templates": {
+      "head": "d70d4394629ffb2e25a3f0e335a49400e4720b1e",
+      "synced_at": 1786429860
+    },
+    "https://github.com/0xElkot/My-Nuclei-Templates": {
+      "head": "cfecd9da4928c39b6ebaf6dd91667be4ac2d3ea4",
+      "synced_at": 1786429860
+    },
+    "https://github.com/sushant-kamble/mynuclei-template": {
+      "head": "c9ed2fdac1dcb78fdaf9ed755826202d5c60a1bd",
+      "synced_at": 1786429860
+    },
+    "https://github.com/stuxctf/nuclei-templates-stux": {
+      "head": "3d9f753a334387f96a765542f568d0bd5fb86d3f",
+      "synced_at": 1786429860
+    },
+    "https://github.com/aredspy/CVE-2021-41182-Tester": {
+      "head": "f8eb0aa0daeeebc3026fbfdfab2a85f46d95a5e1",
+      "synced_at": 1786429860
+    },
+    "https://github.com/xelemental/Nuclei-Templates": {
+      "head": "005eb5b267bed1612ccac4cedc3791c7d48954cb",
+      "synced_at": 1786429860
+    },
+    "https://github.com/emadshanab/nuclei-bitrix-templates": {
+      "head": "8979464d65dc53c9e490172471b0e0795e9253b5",
+      "synced_at": 1786429860
+    },
+    "https://github.com/AshiqurEmon/nuclei_templates": {
+      "head": "8f3a5f222a09fe8cb12789089281d3ee6da3e765",
+      "synced_at": 1786429725
+    },
+    "https://github.com/0xAwali/Blind-SSRF": {
+      "head": "db74e93dc910e87b16721ab6bd436f34ceee48a2",
+      "synced_at": 1786429860
+    },
+    "https://github.com/nicholasaleks/NucleiGPT": {
+      "head": "54bb67ad8b4bba50d084fecfc61e754970af64ea",
+      "synced_at": 1786429860
+    },
+    "https://github.com/sardine-web/polaris-web-reflected-xss.git": {
+      "head": "c2e0b5633ab45ad05a9eb87bf27daaeb737bbb27",
+      "synced_at": 1786429860
+    },
+    "https://github.com/b4dboy17/badboy_17-Nuclei-Templates-Collection": {
+      "head": "021781b0fd3403a91b279113f3c23732ef2a3c52",
+      "synced_at": 1786429860
+    },
+    "https://github.com/V0idC0de/dir-listing-iis-test": {
+      "head": "a824a427808c5b1f3b446160028da54f658a53ff",
+      "synced_at": 1786429860
+    },
+    "https://github.com/HernanRodriguez1/ScanReflectedSSTI": {
+      "head": "511540073e3f1b2c4ad87de766d943314c0026d0",
+      "synced_at": 1786429860
+    },
+    "https://github.com/K3ysTr0K3R/Custom-Nuclei-Templates": {
+      "head": "a7793aa9189192eddd35a352041449bb3e98e58b",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Vulker111/nuclei-templates": {
+      "head": "966a7dadf53fe0b705519e556a603b8e50066230",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Mohsenalmamun/Nuclei-Template": {
+      "head": "e8bbae1fe2f2c47ebf79c56b2486174dc5d1360d",
+      "synced_at": 1786429860
+    },
+    "https://github.com/2jung/nuclei-templates": {
+      "head": "0b4473be98122bdba8ba8b3d59c15ed2d0b0f27a",
+      "synced_at": 1786429860
+    },
+    "https://github.com/geeknik/nuclei-templates-1": {
+      "head": "700b39cc71d4df90c42532bd23b652bb70b4d90f",
+      "synced_at": 1786429725
+    },
+    "https://github.com/vishal12300/all_nuclei_templatess": {
+      "head": "bbbb73a226ee53a6946fddd2973176df179af3b1",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Dalaho-bangin/nuclei-templates2": {
+      "head": "c9456792da2450841be95377e47daa907a48666c",
+      "synced_at": 1786429860
+    },
+    "https://github.com/xinZa1/template": {
+      "head": "0a84b1aa415e7cfc6f825afc1d34ca98cabca35a",
+      "synced_at": 1786429860
+    },
+    "https://github.com/sancrusader/Prv8-Nuclei-Templates": {
+      "head": "e14cda8943e4ad04096d7baeb5138a684e2f07a0",
+      "synced_at": 1786429860
+    },
+    "https://github.com/ShadowHackrs/Nuclei-templates": {
+      "head": "bcfdf1dee56bb5e7547439f5d1bdefac466cf9f2",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Caddyshack2175/nuclei-custom-templates": {
+      "head": "1a852e2881d7d6f3e842ba131fdcc86996bb7e6d",
+      "synced_at": 1786429860
+    },
+    "https://github.com/daffainfo/my-nuclei-templates": {
+      "head": "3e0cef960563e2aae4b8a8a14aa60208042e72f2",
+      "synced_at": 1786429725
+    },
+    "https://github.com/ReksySec/3Nucleit-Templates": {
+      "head": "45c0cb5a5ca5dedadc3400175558773b8ff7f91e",
+      "synced_at": 1786429860
+    },
+    "https://github.com/tamimhasan404/Open-Source-Nuclei-Templates-Downloader": {
+      "head": "eb85e09b7f42222d4c6ae96edd0706ff6d4ff93f",
+      "synced_at": 1786429725
+    },
+    "https://github.com/websecresearch/nucleirecordloginsession": {
+      "head": "8bc53984ac7026814320e4ffca0305ca63d5e7ec",
+      "synced_at": 1786429860
+    },
+    "https://github.com/megamindmeg/Templates": {
+      "head": "225792021ccee517c8a7c86c2cca1c4795d15ee2",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Odayex/Random-Nuclei-Templates": {
+      "head": "b9472a33c07bce1c24bb02f0390659bcfe41860e",
+      "synced_at": 1786429725
+    },
+    "https://github.com/jiankeguyue/nuclei_pocs": {
+      "head": "b6fe26d7a428a41b95ba3c3a51381ae8a9bb6290",
+      "synced_at": 1786429860
+    },
+    "https://github.com/SumedhDawadi/Custom-Nuclei-Template": {
+      "head": "b12c0e0a3f63102a9c3c75a9a6379b8df9346326",
+      "synced_at": 1786429725
+    },
+    "https://github.com/th3r4id/nuclei-templates": {
+      "head": "81a05c3417de895d4d9cd58282e4f029892519cc",
+      "synced_at": 1786429725
+    },
+    "https://github.com/boobooHQ/private_templates": {
+      "head": "ce5ba4542ee9c1b4d8059673cf32d994425f3273",
+      "synced_at": 1786429860
+    },
+    "https://github.com/windyGarlic/nuclei-templates": {
+      "head": "cf8db1b677feec39d260cafee1a6ae1b1aef8466",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Kennyslaboratory/Nuclei-Templates": {
+      "head": "057dfea3a06a76d46bed54b7bc372d80be83b807",
+      "synced_at": 1786429860
+    },
+    "https://github.com/chudamax/custom_nuclei_templates": {
+      "head": "713b88d7281922d39b8750f5b5eb1d6332b8699d",
+      "synced_at": 1786429860
+    },
+    "https://github.com/thebrnwal/Content-Injection-Nuclei-Script": {
+      "head": "28ccf36d996830ed3562ea8aa9c632852c7ae6c5",
+      "synced_at": 1786429725
+    },
+    "https://github.com/Saimonkabir/Nuclei-Templates": {
+      "head": "a591943f81048cadbf3beddb95f00abec2469f14",
+      "synced_at": 1786429725
+    },
+    "https://github.com/UnaPibaGeek/honeypots-detection": {
+      "head": "b2a194f8fccd849733938f0ccc32990d3d93ca2a",
+      "synced_at": 1786429860
+    },
+    "https://github.com/l1b3ri/nuclei-poc": {
+      "head": "6f782d51b3b77f35d3df17a20aaca43922d8ecfb",
+      "synced_at": 1786429860
+    },
+    "https://github.com/rhbb/nuclei-poc": {
+      "head": "aabe76233727a38446a9993ef9caa10ced09a594",
+      "synced_at": 1786429860
+    },
+    "https://github.com/0xSojalSec/Nuclei-Templates-API-Linkfinder": {
+      "head": "1d5ac6411a0119697ebd644092542a2703bc1242",
+      "synced_at": 1786429860
+    },
+    "https://github.com/AshiqurEmon/nuclei_templates.git": {
+      "head": "8f3a5f222a09fe8cb12789089281d3ee6da3e765",
+      "synced_at": 1786429860
+    },
+    "https://github.com/vulnspace/nuclei-templates": {
+      "head": "fa0e1293cbc133cf44248d86dd3acc7575ef4248",
+      "synced_at": 1786429860
+    },
+    "https://github.com/emanueldosreis/CVE-2024-38856": {
+      "head": "d1d3389a61b9038355df62bfeae86c8d7f84394b",
+      "synced_at": 1786429860
+    },
+    "https://github.com/rahul-nakum14/Recon": {
+      "head": "d98b3ce30553e50e0b21419101b04f5fbe8cc4d1",
+      "synced_at": 1786429860
+    },
+    "https://github.com/0xSojalSec/my-nuclei-templates-1": {
+      "head": "4ce3ee5dbd1ab2f356680f9f44a560d9e51f6148",
+      "synced_at": 1786429860
+    },
+    "https://github.com/0xSojalSec/nuclei_templates-SymfonyRCE": {
+      "head": "7d6e3a3105a3f8e09efb7da3718263a205cc14d8",
+      "synced_at": 1786429860
+    },
+    "https://github.com/emo-crab/scap-rs": {
+      "head": "cd0ac9fdce2342acc905592b7f68c14a0006a814",
+      "synced_at": 1786429860
+    },
+    "https://github.com/th3-r3sistanc3/nuclei-templates": {
+      "head": "d74c12579347bc4f08043527dfe8dc137fa30648",
+      "synced_at": 1786429860
+    },
+    "https://github.com/0xSojalSec/Nuclei-TemplatesNuclei-Templates-CVE-2017-17736": {
+      "head": "30c3597c63586de7a97d7a874f81aa7785394307",
+      "synced_at": 1786429860
+    },
+    "https://github.com/ed-red/redmc_custom_templates_nuclei": {
+      "head": "e0b1d92115057b75866bd9fb83c7d476ab206cb1",
+      "synced_at": 1786429860
+    },
+    "https://github.com/ExpLangcn/NucleiTP": {
+      "head": "2b7ecb9031a6eda4f272793045f29b339d8e0cce",
+      "synced_at": 1786429725
+    },
+    "https://github.com/0xdln1/nuclei-templates": {
+      "head": "3c6bf8733fda739108d03a442c449c6bd50858d5",
+      "synced_at": 1786429860
+    },
+    "https://github.com/ekinsb/Nuclei-Templates": {
+      "head": "677de20c7d9df0c411d5130007067e2b3e94f789",
+      "synced_at": 1786429725
+    },
+    "https://github.com/R-s0n/Custom_Vuln_Scan_Templates": {
+      "head": "2e982727c5109a2f609d23c8639065449f37b853",
+      "synced_at": 1786429725
+    },
+    "https://github.com/0xSojalSec/templatesallnuclei": {
+      "head": "2faa7656496501b549e2c10076c493bcb99ae1c6",
+      "synced_at": 1786429860
+    },
+    "https://github.com/reewardius/nuclei-templates": {
+      "head": "b69ee4090e1601946990d3a8d00cc6b1349c8827",
+      "synced_at": 1786429860
+    },
+    "https://github.com/toramanemre/apache-solr-log4j-CVE-2021-44228": {
+      "head": "927f95bc7cbdeec06ebc6e62e46505cfa95e0e76",
+      "synced_at": 1786429725
+    },
+    "https://github.com/pushpak-11/nuclei-templates": {
+      "head": "657d9e205631d49bd558300df78696bd6a496f19",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Jagomeiister/nuclei-templates": {
+      "head": "ddf3345c80f0a1d4c8fa9be9f46cd349f2719741",
+      "synced_at": 1786429725
+    },
+    "https://github.com/javaongsan/nuclei-templates": {
+      "head": "254bfb278a124903407f78fd6f364aba070a5487",
+      "synced_at": 1786429725
+    },
+    "https://github.com/justmumu/SpringShell": {
+      "head": "72de19f6af57db2b3a58d07a03ff93f8e5090fe2",
+      "synced_at": 1786429725
+    },
+    "https://github.com/dat-ayush/custom-nuclei-templates": {
+      "head": "48e3b4f1f55f4134efc148d177506070868b308e",
+      "synced_at": 1786429860
+    },
+    "https://github.com/System00-Security/backflow": {
+      "head": "fe0c68ca46b821f6fb502c517925ea47f402bfeb",
+      "synced_at": 1786429725
+    },
+    "https://github.com/RandomRobbieBF/nuclei-drupal-sa": {
+      "head": "cc2b1907174cb440086999a03d76bb29617657ca",
+      "synced_at": 1786429860
+    },
+    "https://github.com/bug-vs-me/nuclei": {
+      "head": "42aa83fbec614af7e25e6a5f838a5a293c7c0e2d",
+      "synced_at": 1786429860
+    },
+    "https://github.com/jinji9630/jinjo-nuclei-templates": {
+      "head": "5a03fcf11377216c52b33047e6728ca592e460a4",
+      "synced_at": 1786429860
+    },
+    "https://github.com/VulnExpo/nuclei-templates": {
+      "head": "142828ca97ecb66d7c87bcec19c6935a90e51645",
+      "synced_at": 1786429860
+    },
+    "https://github.com/JoshMorrison99/url-based-nuclei-templates": {
+      "head": "6ec770d58ce70beb38efa1de58d10e382a1729e8",
+      "synced_at": 1786429725
+    },
+    "https://github.com/MikeeI/nuclei-templates": {
+      "head": "58b8a9dbf06c701119ba9aaf5e9e6ec2350bc062",
+      "synced_at": 1786429860
+    },
+    "https://github.com/EslamMonex/subdomain-takeover": {
+      "head": "0b9671772cd602d56973eb899db4b8c6787d5837",
+      "synced_at": 1786429860
+    },
+    "https://github.com/coldrainh/nuclei-ByMyself": {
+      "head": "c11e8650ea4e3714113a1a064f7888df1e5934d0",
+      "synced_at": 1786429725
+    },
+    "https://github.com/rafaelwdornelas/my-nuclei-templates": {
+      "head": "9eac8a13a2d9ea8c4d41176348a4b874ad7f21f2",
+      "synced_at": 1786429725
+    },
+    "https://github.com/e1abrador/SpringCorePoC.sh": {
+      "head": "4d87d67f0943c0c1cbbb4128e65f0a149e739023",
+      "synced_at": 1786429860
+    },
+    "https://github.com/manasmbellani/nuclei-templates": {
+      "head": "94a7d3ac5fd3e4bf22cb8fdf2db0097c8d28c0a6",
+      "synced_at": 1786429860
+    },
+    "https://github.com/anmolksachan/nuclei-templates": {
+      "head": "7d4d47d851e18708609d35f70e1efadc38f683d6",
+      "synced_at": 1786429860
+    },
+    "https://github.com/xenigmus/nuclei-installer": {
+      "head": "14943790ee57d4111022ef8641d037c36c94749e",
+      "synced_at": 1786429860
+    },
+    "https://github.com/byt3n33dl3/thc-Nuclei": {
+      "head": "63ab4c1ce94df31ac2a23d51c2e83dedc64c7bb8",
+      "synced_at": 1786429860
+    },
+    "https://github.com/W01fh4cker/nucleiTemplatesClassifier": {
+      "head": "dcec3c80098e80a698665cf65eaeda5126a03962",
+      "synced_at": 1786429860
+    },
+    "https://github.com/atk7r/Nuclei-Poc": {
+      "head": "f7649763dcb7a3e7641e011d3c6139f9aa8e980b",
+      "synced_at": 1786429860
+    },
+    "https://github.com/adibarsyad/nuclei-jsp-source-code-review": {
+      "head": "5f09a2e0e4c7fa6a48b37b897b48fca1dd576e0b",
+      "synced_at": 1786429860
+    },
+    "https://github.com/narasimha5x5/nuclei-templates": {
+      "head": "1fbfcfc99bb8952b1d6928ce85643e20a10acdd3",
+      "synced_at": 1786429860
+    },
+    "https://github.com/niranc/Nuclei-personal-templates": {
+      "head": "309510291a22f3ee3820a4ce763c98991d61879a",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Saboor-Hakimi/CVE-2023-23752": {
+      "head": "226296183a0a2c60dc8bec67f7eee9a144b2260e",
+      "synced_at": 1786429860
+    },
+    "https://github.com/malectricasoftware/SwaggerX": {
+      "head": "fb128da440c761f09edbf8ba5b70ff8bf39b371e",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Loftven/BIZONE_WAF_DETECt": {
+      "head": "291610044cefbc1bd598c5beb12f489e3178e943",
+      "synced_at": 1786429860
+    },
+    "https://github.com/0xSojalSec/nuclei-templates-4": {
+      "head": "72f13a7c348b23406a65e4f28bcb1344980a4526",
+      "synced_at": 1786429860
+    },
+    "https://github.com/srkgupta/cent-nuclei-templates": {
+      "head": "7994d13b8b8c437c9cd4ba33b0e0a63676a91ddd",
+      "synced_at": 1786429860
+    },
+    "https://github.com/al00000000al/my_nuclei_templates": {
+      "head": "dca9d3acb5b297e6b7795bf399e0c753b2fb3668",
+      "synced_at": 1786429860
+    },
+    "https://github.com/im403/nuclei-temp": {
+      "head": "51f5b1785e2431cce4d0bd94f45cfe1500c93658",
+      "synced_at": 1786429725
+    },
+    "https://github.com/nuts7/CVE-2023-27372": {
+      "head": "aa0a38a19ceebec234f4c256b8173a7c025a2a97",
+      "synced_at": 1786429860
+    },
+    "https://github.com/edoardottt/RFDos-Scanner": {
+      "head": "e613526c7b5e048dc9c4c7c5b44c2ca1268559c1",
+      "synced_at": 1786429860
+    },
+    "https://github.com/dioos886/Nuclei-POC": {
+      "head": "38d38a74be7f94313916fb2849368f189019be89",
+      "synced_at": 1786429860
+    },
+    "https://github.com/jhonnybonny/nuclei-templates-bitrix": {
+      "head": "576e56e7b2b7b03232499e2182b58157529479c4",
+      "synced_at": 1786429860
+    },
+    "https://github.com/shubham-rooter/Nuclei-custom-templates": {
+      "head": "5d7dfb9e80a5ec328023769d3c7e321d1f14b6f4",
+      "synced_at": 1786429860
+    },
+    "https://github.com/kh4sh3i/CVE-2022-23131": {
+      "head": "968cb4c7de7db689c9b4598ca359d31b13a54eda",
+      "synced_at": 1786429725
+    },
+    "https://github.com/kh4sh3i/Webmin-CVE": {
+      "head": "818c928f775982e92f8fa687b8821c792729d5a2",
+      "synced_at": 1786429860
+    },
+    "https://github.com/reewardius/mytemplates-log4shell": {
+      "head": "89a84366dace856e0f4a5398485c73169f454b3f",
+      "synced_at": 1786429860
+    },
+    "https://github.com/randomstr1ng/nuclei-sap-templates": {
+      "head": "45f04b6d5b902463e5d85b3d19e2c486db0ebbb8",
+      "synced_at": 1786429725
+    },
+    "https://github.com/stevemason/nuclei-template-forked-daapd-path-traversal": {
+      "head": "c5ba146afa659c59b1c1afa47cf20a57e8c57688",
+      "synced_at": 1786429860
+    },
+    "https://github.com/1in9e/my-nuclei-templates": {
+      "head": "f1a5d8da08d0c5240569083cba056fe5f11d1bca",
+      "synced_at": 1786429725
+    },
+    "https://github.com/JoshMorrison99/my-nuceli-templates": {
+      "head": "2de4cc07af9d3e7221d172aa381c3e15ce4a9591",
+      "synced_at": 1786429860
+    },
+    "https://github.com/themoonbaba/private_templates": {
+      "head": "ce5ba4542ee9c1b4d8059673cf32d994425f3273",
+      "synced_at": 1786429860
+    },
+    "https://github.com/polling-repo-continua/KozinTemplates": {
+      "head": "598cab48f1fb48d9c0fb65d86fd82d62c39836c9",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Saptak9983/Nuclei-Template": {
+      "head": "f6ba54c7465991af0793fb70d07e4e10ba1b5c84",
+      "synced_at": 1786429725
+    },
+    "https://github.com/projectdiscovery/nuclei-templates": {
+      "head": "66a4a62554a8797d4f4c29b0ea99dbe07668d471",
+      "synced_at": 1786429725
+    },
+    "https://github.com/aels/CVE-2022-37042": {
+      "head": "18c34c27fdf1c2ad5c759853f9e429a1af4e0252",
+      "synced_at": 1786429725
+    },
+    "https://github.com/emadshanab/nucleiDB": {
+      "head": "a06eb8edf2853662c304e3f41f8887b65f56e399",
+      "synced_at": 1786429860
+    },
+    "https://github.com/geeknik/the-nuclei-templates": {
+      "head": "36a6d14bce3293907a83afb498caec5fd45b1777",
+      "synced_at": 1786429725
+    },
+    "https://github.com/h0tak88r/nuclei_templates": {
+      "head": "3c37e573c530774c51973a18e697d88042ade3ec",
+      "synced_at": 1786429860
+    },
+    "https://github.com/mastersir-lab/nuclei-yaml-poc": {
+      "head": "86b836b7baf6123280b7b94afb642f4b6ad45c87",
+      "synced_at": 1786429725
+    },
+    "https://github.com/jhonnybonny/nuclei-templates": {
+      "head": "40117bf241eb20e874d387a96baf25415fcdb14b",
+      "synced_at": 1786429860
+    },
+    "https://github.com/0xPugazh/my-nuclei-templates": {
+      "head": "800d311a2a51fb2ebbe26fe7bfd6c24a8f3934b1",
+      "synced_at": 1786429725
+    },
+    "https://github.com/xungzzz/CVE-2024-4956": {
+      "head": "266f3a0e11e7474565d91106bb99ca980f36ba26",
+      "synced_at": 1786429860
+    },
+    "https://github.com/toramanemre/log4j-rce-detect-waf-bypass": {
+      "head": "3b5071ff65a6366851586e197b01d0824f57e77e",
+      "synced_at": 1786429725
+    },
+    "https://github.com/0x71rex/0-Nuclei-Templates": {
+      "head": "3819f7fc2a20e170d1cf45abe231c6b5b9960548",
+      "synced_at": 1786429860
+    },
+    "https://github.com/luck-ying/Library-YAML-POC": {
+      "head": "cfabd0f7bea9c13f881bed7bcd673ab72473ad4d",
+      "synced_at": 1786429725
+    },
+    "https://github.com/SecTheBit/CVE-2022-1388": {
+      "head": "25e6c6efe5405044ffdb6502ad09e7a3df61456a",
+      "synced_at": 1786429860
+    },
+    "https://github.com/panch0r3d/nuclei-templates": {
+      "head": "700b39cc71d4df90c42532bd23b652bb70b4d90f",
+      "synced_at": 1786429725
+    },
+    "https://github.com/bhataasim1/PersonalTemplates": {
+      "head": "1f6850a4a38c5a8b8bc5c79b13c7d8ec0bbd97e6",
+      "synced_at": 1786429860
+    },
+    "https://github.com/binod235/nuclei-templates-and-reports": {
+      "head": "09108f002769436a4526e364eb061db18b75d522",
+      "synced_at": 1786429725
+    },
+    "https://gist.github.com/ResistanceIsUseless/e46848f67706a8aa1205c9d2866bff31": {
+      "head": "07795f9adb3d56978dc3dda6019d00daf8ed796b",
+      "synced_at": 1786429725
+    },
+    "https://github.com/Saitle/Yamilicious": {
+      "head": "6ff1c1121325f58e264d0a345f14188e4a6014a9",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Str1am/my-nuclei-templates": {
+      "head": "1f07eff2e7f72000d72fb1d99b4744454d241115",
+      "synced_at": 1786429725
+    },
+    "https://github.com/topscoder/nuclei-zero-day": {
+      "head": "dba312415750d0fb39cf29dc6527cd68de96f85c",
+      "synced_at": 1786429860
+    },
+    "https://github.com/kaanatmacaa/CVE-2024-23897": {
+      "head": "23c330c53cc698854745e6d8255983ee734ea76a",
+      "synced_at": 1786429860
+    },
+    "https://github.com/am0nt31r0/custom-nuclei-templates": {
+      "head": "5190c1e2718de3748ad82a288447195357b8429a",
+      "synced_at": 1786429860
+    },
+    "https://github.com/nischalbijukchhe/specific-nuclei-templates": {
+      "head": "60b80fe4e3a85c0d4d6f15578b4dc5f582d31b7b",
+      "synced_at": 1786429860
+    },
+    "https://github.com/NitinYadav00/My-Nuclei-Templates": {
+      "head": "49703439a2a67e4a6fe30713524fde95ba70eb5f",
+      "synced_at": 1786429725
+    },
+    "https://github.com/p3n73st3r/Nuclei-Templates": {
+      "head": "fb583451ba118dc5a839cbb442b4cfcfd3ed92aa",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Hunt2behunter/nuclei-templates": {
+      "head": "ace35b06e2804c56700bfafabdbb6e914a853089",
+      "synced_at": 1786429725
+    },
+    "https://github.com/freakyclown/Nuclei_templates": {
+      "head": "f6aa4838234ae171fde6e2e7e2809444fba705f1",
+      "synced_at": 1786429860
+    },
+    "https://github.com/notnotnotveg/nuclei-custom-templates": {
+      "head": "4a5b4c6493083a9ec5be9592f36894424353c3ad",
+      "synced_at": 1786429725
+    },
+    "https://github.com/tgr420/nuclei-templates": {
+      "head": "538595a1aa1c98a72bbbc04c633abf28bfd5c02d",
+      "synced_at": 1786429860
+    },
+    "https://github.com/reewardius/log4shell-templates": {
+      "head": "90140071bbc906c56effa3c0d407804e19e4321c",
+      "synced_at": 1786429860
+    },
+    "https://github.com/n1f2c3/mytemplates": {
+      "head": "987b0a079e8498ccccca65ade049c03f77f7f2c2",
+      "synced_at": 1786429725
+    },
+    "https://github.com/schooldropout1337/nuclei-templates": {
+      "head": "ad52abee61d5f79fb95c0312618889e119a07f24",
+      "synced_at": 1786429860
+    },
+    "https://github.com/0xmaximus/final_freaking_nuclei_templates": {
+      "head": "fa0a415abd48c69e792e41d49b7a117d193a1a14",
+      "synced_at": 1786429725
+    },
+    "https://github.com/PedroFerreira97/nuclei_templates": {
+      "head": "7399a62723d05863ea3f5c2d96b8fe71a1f0ced0",
+      "synced_at": 1786429725
+    },
+    "https://github.com/SirAppSec/nuclei-template-generator-log4j": {
+      "head": "8bda293714d48e185e55a76c7237e8111f91cdf5",
+      "synced_at": 1786429725
+    },
+    "https://github.com/rix4uni/BugBountyTips": {
+      "head": "cf044bd1ed47c466deade12952745d540f01eaee",
+      "synced_at": 1786429860
+    },
+    "https://github.com/valaDevs/env-js-nuclei": {
+      "head": "c668ebfa50adc5918dd0ec5df4441b8535a48efa",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Deepparasiya/Nuclei-Templates": {
+      "head": "9863950386773fb0fd79f276499258530aa6aca9",
+      "synced_at": 1786429860
+    },
+    "https://github.com/exploit-io/nuclei-fuzz-templates": {
+      "head": "48b444016b48d0d41d342e5894ddcbc0d794df1e",
+      "synced_at": 1786429860
+    },
+    "https://github.com/praetorian-inc/chariot-launch-nuclei-templates": {
+      "head": "42f2b17b1febf3254a164205be46f794242d21b8",
+      "synced_at": 1786429725
+    },
+    "https://github.com/UltimateSec/ultimaste-nuclei-templates": {
+      "head": "ddb86832d1d859113eb069cc7e534443daa7abfd",
+      "synced_at": 1786429860
+    },
+    "https://github.com/adibarsyad/nuclei-ios": {
+      "head": "a55e5d76b18e7b6e6086216728692601fd7aa329",
+      "synced_at": 1786429860
+    },
+    "https://github.com/NightRang3r/misc_nuclei_templates": {
+      "head": "802fbde1f106fede2d00d6db98ce1a8721bc8d27",
+      "synced_at": 1786429725
+    },
+    "https://github.com/ts4rin4/templates4nuclei": {
+      "head": "3bd12430492d154adfd07c433bc6721734f7f823",
+      "synced_at": 1786429860
+    },
+    "https://github.com/kabilan1290/templates": {
+      "head": "e5389616c0339d0709b12dd7c93d3a7f64b15639",
+      "synced_at": 1786429725
+    },
+    "https://github.com/Harish4948/Nuclei-Templates": {
+      "head": "8c185d959b84985714d068b2cbbd7b90741dfaf6",
+      "synced_at": 1786429725
+    },
+    "https://github.com/thecybertix/Nuclei-templates": {
+      "head": "62499ff8a86106df7a82eb220318821334c90637",
+      "synced_at": 1786429860
+    },
+    "https://github.com/xcode0xbug/Nuclei-Private-YAML-Templates": {
+      "head": "4832b8a5a4ebaf1d6f032953d24118f4e9b24c45",
+      "synced_at": 1786429860
+    },
+    "https://github.com/akincibor/CVE-2022-27925": {
+      "head": "3e1b1b2c0331f5d4b900a45f9b2c2d81524dbc25",
+      "synced_at": 1786429860
+    },
+    "https://github.com/vijay922/XXE-FUZZ": {
+      "head": "999cd3c5e2d1bbd7e063d6a16833f9fd52f9c9d1",
+      "synced_at": 1786429860
+    },
+    "https://github.com/GhostTroops/scan4all": {
+      "head": "fff03b51bf79c8993a46c1da766ec993e1102c47",
+      "synced_at": 1786429860
+    },
+    "https://github.com/10kHacktech/nuclei_templates": {
+      "head": "8ddb9cbb6064ca6c3cb7615bb233b50ea54104a3",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Lu3ky13/Authorization-Nuclei-Templates": {
+      "head": "f4f7facaf85c13ef8bf003ec989213badf9f750e",
+      "synced_at": 1786429860
+    },
+    "https://github.com/nullfuzz-pentest/custom-nuclei-templates": {
+      "head": "77dc277ffbd8a17ff869ffd57bad8fef29f34022",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Tykerdestroy/Bug-bounty-custom-templates": {
+      "head": "090c636c6f8af5e2dfe8017ab851656600a8ea02",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Shakilll/my_nuclei_templates": {
+      "head": "8659ec465a93101f2fd9eb6e0b375ed3a048627d",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Gotcha-1G/CVE-2022-42889": {
+      "head": "37579e8bc909dc86f61a77244788d4477213264b",
+      "synced_at": 1786429860
+    },
+    "https://github.com/securitytaters/nuclei-templates": {
+      "head": "c1336dd6d78d4a2fd7a3e598a94e82b23c0034c2",
+      "synced_at": 1786429860
+    },
+    "https://github.com/qaisarafridi/MY-Nuclei-Templates": {
+      "head": "3660d31d1eb29e86c1d3403eb973b1e0cbeaf677",
+      "synced_at": 1786429860
+    },
+    "https://github.com/blazeinfosec/nuclei-templates": {
+      "head": "2354a3f19ae68c870c4b7454abc7f5ce18b50e9c",
+      "synced_at": 1786429725
+    },
+    "https://github.com/YuanBenSir/Nuclei_poc_C": {
+      "head": "e0c3ddf9e4f69d6985feed45cd596af7ba0e7879",
+      "synced_at": 1786429860
+    },
+    "https://github.com/0xr2r/templates-nucleir2r": {
+      "head": "def67c6daac09a7e770d99251b7746792789c379",
+      "synced_at": 1786429860
+    },
+    "https://github.com/windyGarlic/my-nuclei-templates": {
+      "head": "cf8db1b677feec39d260cafee1a6ae1b1aef8466",
+      "synced_at": 1786429860
+    },
+    "https://github.com/k00kx/nuclei-templates": {
+      "head": "f0dc6c5f0071f37272006622a15847fce5273001",
+      "synced_at": 1786429860
+    },
+    "https://github.com/MrCl0wnLab/Nuclei-Template-CVE-2022-1388-BIG-IP-iControl-REST-Exposed": {
+      "head": "f4355c15434afe2cdb2ecbb6f3fcadb5d1488b80",
+      "synced_at": 1786429860
+    },
+    "https://github.com/ethicalhackingplayground/erebus-templates": {
+      "head": "7acfaf027a2c38b1505f96af1e642ac49858e6b7",
+      "synced_at": 1786429725
+    },
+    "https://github.com/bufferbandit/gitScanNucleiTemplate": {
+      "head": "14b7c8cc5e773c26ed7e5fad9ac2fd1d0fee7054",
+      "synced_at": 1786429860
+    },
+    "https://github.com/cipher387/juicyinfo-nuclei-templates": {
+      "head": "4bef89cfd50f9e60ea5a8b8a32636c95ca2168ad",
+      "synced_at": 1786429725
+    },
+    "https://github.com/blackvitasoy/nuclei_templates": {
+      "head": "27737eb71d7af9fd336db735482ee29cbb3af3fb",
+      "synced_at": 1786429860
+    },
+    "https://github.com/z3bd/nuclei-templates": {
+      "head": "a0ef427b78571c9fef2fe5c41f015ee932fa9524",
+      "synced_at": 1786429725
+    },
+    "https://github.com/projectdiscovery/fuzzing-templates": {
+      "head": "5585787b43e6f7242fcbb706688f9528be63e29f",
+      "synced_at": 1786429860
+    },
+    "https://github.com/pikpikcu/nuclei-templates": {
+      "head": "cbf9fd29b2cefd66125018c1fdf4236d992356f0",
+      "synced_at": 1786429725
+    },
+    "https://github.com/nikhilhvr/nuclei-templates": {
+      "head": "d8e96b652c26e38cc863f2307eb05ab7812f5f9a",
+      "synced_at": 1786429860
+    },
+    "https://github.com/wearetyomsmnv/llm_integrated_nuclei_templates": {
+      "head": "039b4aa484d1c5a8dd84e6590e9dd394bb3a512d",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Christbowel/CVE-2024-25600_Nuclei-Template": {
+      "head": "099b4f9b068778dc979c9b06bddb23e84a628c6f",
+      "synced_at": 1786429860
+    },
+    "https://github.com/badboycxcc/CVE-2023-24100": {
+      "head": "b4d2c84ec8eb06beadeda72ad9f35802d6a3bfc3",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Elsfa7-110/log4jNuclei": {
+      "head": "332f3ff8db3da912bfe12d227c1c5d276080061a",
+      "synced_at": 1786429860
+    },
+    "https://github.com/r3dcl1ff/nuclei-templates": {
+      "head": "d0b81870094c577fc3140e69939b3bb8e01fa8f5",
+      "synced_at": 1786429860
+    },
+    "https://github.com/0xSojalSec/nuclei-templates-5": {
+      "head": "5cac6279d6814d6ea558bfc0343880e0c3574803",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Rabb1ter/nuclei-templates": {
+      "head": "45184ae6973ccd977e217a78763829eed9a1d1d6",
+      "synced_at": 1786429860
+    },
+    "https://github.com/0xSojalSec/templates-nuclei-Oracle-OAM---XSS": {
+      "head": "b48e003161e37e8d95c074f4fd2511f44cbd521b",
+      "synced_at": 1786429860
+    },
+    "https://github.com/MR-pentestGuy/nuclei-templates": {
+      "head": "2b50cf9bbb94812322c8513c2053a6a6403ecd6d",
+      "synced_at": 1786429725
+    },
+    "https://github.com/baharebenesbordi/Nuclei-Templates": {
+      "head": "6a76205b785c2c00e9b936136ceef40d5cd561f4",
+      "synced_at": 1786429860
+    },
+    "https://github.com/mosesrenegade/nuclei-templates": {
+      "head": "1a41da068741e7049abc4a636eea98d376fc3f98",
+      "synced_at": 1786429860
+    },
+    "https://github.com/pikpikcu/nuclei-fuzz": {
+      "head": "9124ed6992b2e890128a8635c037b07bfaf91202",
+      "synced_at": 1786429860
+    },
+    "https://github.com/brinhosa/brinhosa-nuclei-templates": {
+      "head": "53f8b755245fe0b534085352bf7838e38c75c6f8",
+      "synced_at": 1786429725
+    },
+    "https://github.com/thefool45/nuclei-templates": {
+      "head": "51c1e5c165e3f4a6d9400c277d986fa38445a797",
+      "synced_at": 1786429860
+    },
+    "https://github.com/compr00t/nuclei-templates": {
+      "head": "355b84d31e8365d2896b53c62bc47c07739767e5",
+      "synced_at": 1786429860
+    },
+    "https://github.com/milo2012/nuclei-templates-others": {
+      "head": "b56b784dd08c37381035cf56a2087d088706ac18",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Sachinart/manual-nuclei-templates": {
+      "head": "cca08188dd4f2dc85784336b33ad2b2ebdd19254",
+      "synced_at": 1786429860
+    },
+    "https://github.com/br0wnst4n11/Custom_Nuclei_Templates": {
+      "head": "423fa2754f6c9ac260ee7ae62e819a5b09e59b4e",
+      "synced_at": 1786429860
+    },
+    "https://github.com/rahulkadavil/nuclei-templates": {
+      "head": "018341db02159df5122a9ec7128cdfdbc4732b76",
+      "synced_at": 1786429725
+    },
+    "https://github.com/PedroF-369/nuclei_templates": {
+      "head": "7399a62723d05863ea3f5c2d96b8fe71a1f0ced0",
+      "synced_at": 1786429860
+    },
+    "https://github.com/superhexa/nuclei-templates": {
+      "head": "4297c14b2707f219c0ae3fdd5b16c0b365f7e021",
+      "synced_at": 1786429860
+    },
+    "https://github.com/damon-sec/Nuclei-templates-Collection": {
+      "head": "8c1dd2ad0f132a5b15201f77c5fe0073d2ee9bc9",
+      "synced_at": 1786429860
+    },
+    "https://github.com/k3ppf0r/2024-PocLib": {
+      "head": "f64375e23082dff16b86ab07b2f452bd7156a31d",
+      "synced_at": 1786429860
+    },
+    "https://github.com/test502git/log4j-fuzz-head-poc": {
+      "head": "8882134a42d816f093f892342995bcfb382113db",
+      "synced_at": 1786429725
+    },
+    "https://github.com/0xKayala/Custom-Nuclei-Templates": {
+      "head": "1940dfd29577590f076c89dec5c30d809d68f210",
+      "synced_at": 1786429860
+    },
+    "https://github.com/KhukuriRimal/CustomNucleiTemplates": {
+      "head": "f524f89601ecb03655a303a9e9664fd78ca540eb",
+      "synced_at": 1786429860
+    },
+    "https://github.com/ayadim/Nuclei-bug-hunter": {
+      "head": "0f1b672ef1bf56975e881c68ea4385fe7c84780f",
+      "synced_at": 1786429725
+    },
+    "https://github.com/h4ndsh/nuclei-templates": {
+      "head": "7c050adaabdb2c6b83ddbdb5dfd469e3fd3eed15",
+      "synced_at": 1786429860
+    },
+    "https://github.com/ARPSyndicate/kenzer-templates": {
+      "head": "1d4a5bc47d9a3443e3c7df2728639c80c43af764",
+      "synced_at": 1786429725
+    },
+    "https://github.com/YashVardhanTrip/nuclei-templates-initial-access": {
+      "head": "862e73acad3cedabde5924e43e9d027f4cc54116",
+      "synced_at": 1786429860
+    },
+    "https://github.com/esetal/nuclei-bb-templates": {
+      "head": "7a008d58c4330aeb2e875bfc71d928261ad24df9",
+      "synced_at": 1786429725
+    },
+    "https://github.com/trickest/log4j": {
+      "head": "30607e4fd4527b369be2fb8ece8d73e8580142c7",
+      "synced_at": 1786429725
+    },
+    "https://github.com/0xSojalSec/Nuclei-Templates-Collection": {
+      "head": "64666d76bfe3475aa235cdf0b819882407af1c35",
+      "synced_at": 1786429860
+    },
+    "https://github.com/rafaelcaria/Nuclei-Templates": {
+      "head": "203067974422248c65caec2b6f3223d6782e93ba",
+      "synced_at": 1786429725
+    },
+    "https://github.com/sharathkramadas/k8s-nuclei-templates": {
+      "head": "25b0a9d3e6c5b59037b17fd44585c061ad38a9ff",
+      "synced_at": 1786429725
+    },
+    "https://github.com/alexrydzak/rydzak-nuclei-templates": {
+      "head": "8454cec2756026303126898f7d3f5f1f299c75c9",
+      "synced_at": 1786429725
+    },
+    "https://github.com/ZoomerTedJackson/Salesforce-ContentDocument-DetectorNuclei-Template": {
+      "head": "e529ee92b48bf4f87febc436a5cdb165881f327e",
+      "synced_at": 1786429860
+    },
+    "https://github.com/xjhonly/nuclei-templates": {
+      "head": "99175e1a198e627a06ec3179d9bffea6aaf2c3fa",
+      "synced_at": 1786429860
+    },
+    "https://github.com/zan8in/pxplan": {
+      "head": "fd87ef720bf9e7550512ef22bf1f84c3895e8b1c",
+      "synced_at": 1786429860
+    },
+    "https://github.com/cybershadowvps/coffinxp-nuclei-templates": {
+      "head": "26feb56893a22cb6731f1a138001d514356a85f5",
+      "synced_at": 1786429860
+    },
+    "https://github.com/rzizah/private-nuclei-template": {
+      "head": "32ddfec1920151ae5dc6a8801917f17f5e297b36",
+      "synced_at": 1786429860
+    },
+    "https://github.com/DoubleTakes/nuclei-templates": {
+      "head": "049d612a45d4838830fd918bd83a75fe3993f00b",
+      "synced_at": 1786429860
+    },
+    "https://github.com/ZephrFish/CVE-2024-4577-PHP-RCE": {
+      "head": "4877c1405903f98aa92fd9ecb2842315a1889f27",
+      "synced_at": 1786429860
+    },
+    "https://github.com/thelabda/nuclei-templates": {
+      "head": "20686e036fbe3d5a42f84f7a31b1735004dd92c1",
+      "synced_at": 1786429725
+    },
+    "https://github.com/Esonhugh/public-nuclei-template": {
+      "head": "6742834bb55ba30aa67704e79897b0f85fa9ade9",
+      "synced_at": 1786429860
+    },
+    "https://github.com/badboy-sft/badboy_17-Nuclei-Templates-Collection": {
+      "head": "021781b0fd3403a91b279113f3c23732ef2a3c52",
+      "synced_at": 1786429725
+    },
+    "https://github.com/andersonmv/Nuclei_Templates": {
+      "head": "9576562ce0173a152f53495656696b55825821d6",
+      "synced_at": 1786429860
+    },
+    "https://github.com/KeepHowling/all_freaking_nuclei_templates": {
+      "head": "b374318732b6922f72d327c57451a7d30973c0c6",
+      "synced_at": 1786429725
+    },
+    "https://github.com/bjhulst/nuclei-custom-templates": {
+      "head": "bb5f75a1ff27279ee0e5fc54fb57b2248e4500b9",
+      "synced_at": 1786429860
+    },
+    "https://github.com/CharanRayudu/Custom-Nuclei-Templates": {
+      "head": "6418cf9ac43a7d4121d979ae9afb12f54511729e",
+      "synced_at": 1786429725
+    },
+    "https://github.com/0x20c/CVE-2024-4577-nuclei": {
+      "head": "e89ec3c16e306f0bcd005a2143792bd4b5234037",
+      "synced_at": 1786429860
+    },
+    "https://github.com/ViktorMares/geoserver-nuclei-template": {
+      "head": "13bda601389d5743e16bac2b769d88f4b4b499cc",
+      "synced_at": 1786429860
+    },
+    "https://github.com/solo10010/solo-nuclei-templates": {
+      "head": "6a7c49dc9c1e5f18e05d6d83f3ea116221c7b216",
+      "synced_at": 1786429860
+    },
+    "https://github.com/adampielak/nuclei-templates": {
+      "head": "f17f34d2840d7ba5dbb2bdddd173291bbc3b3cda",
+      "synced_at": 1786429725
+    },
+    "https://github.com/clarkvoss/Nuclei-Templates": {
+      "head": "a49bbf37e9e4f8dbfa0031437dc2dc92bc1a8eb2",
+      "synced_at": 1786429725
+    },
+    "https://github.com/Akokonunes/Private-Nuclei-Templates": {
+      "head": "f92d2274458a958ed01345915693cf1dbe026f83",
+      "synced_at": 1786429725
+    },
+    "https://github.com/BagheeraAltered/FuzzingTemplate": {
+      "head": "f6ca97c3e7a7e18d09d446020ac66e1daf66cdd7",
+      "synced_at": 1786429860
+    },
+    "https://github.com/ahmedalroky/nuclei-templates": {
+      "head": "d4e6aec828c044f1dbaed4c8d7a7f3569d4d8029",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Red-Darkin/Custom-Nuclei-Templates": {
+      "head": "f4e0ccf100c4c517b6a23909548c71efe3732b96",
+      "synced_at": 1786429860
+    },
+    "https://github.com/pikpikcu/my-nuclei-templates": {
+      "head": "b0c7a352da6055fe80dd3594e8a5351f4d19e20d",
+      "synced_at": 1786429860
+    },
+    "https://github.com/0xPugal/my-nuclei-templates": {
+      "head": "800d311a2a51fb2ebbe26fe7bfd6c24a8f3934b1",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Arvinthksrct/alltemplate": {
+      "head": "5adaa637d1857a1875ee444eb8141e64489386cb",
+      "synced_at": 1786429860
+    },
+    "https://github.com/davidfortytwo/GetNucleiTemplates": {
+      "head": "039d5241c21297a20117beeb26319835cf3add25",
+      "synced_at": 1786429860
+    },
+    "https://github.com/medbsq/ncl": {
+      "head": "bd57ef5bf75f3c7c2abb290ef055b3abc2975d80",
+      "synced_at": 1786429725
+    },
+    "https://github.com/ricardomaia/nuclei-template-generator-for-wordpress-plugins": {
+      "head": "f8cf9eaf3ed81d0323072143e78315b894052909",
+      "synced_at": 1786429725
+    },
+    "https://github.com/zeronine9/nuclei_Stuff": {
+      "head": "1f8906ff698a22906d0913a3074c290d1fdb099f",
+      "synced_at": 1786429860
+    },
+    "https://github.com/rxerium/CISA-KEV": {
+      "head": "2888f9aaea3f69dd101c20d9e278a3499b9666d0",
+      "synced_at": 1786429860
+    },
+    "https://github.com/praetorian-inc/zeroqlik-detect": {
+      "head": "1baaf56f906dfffd91659153242af195dd7307f7",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Co5mos/nuclei-tps": {
+      "head": "5bc8b820acf9c992602cc7566e205e6cf1c463dd",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Mr-xn/CVE-2023-23333": {
+      "head": "2b7142889c37136d14e42eb695721a1356129c0a",
+      "synced_at": 1786429860
+    },
+    "https://github.com/securitytest3r/nuclei_templates_work": {
+      "head": "298a4db7c6b6c31ce4988e97ffc6d25975f49607",
+      "synced_at": 1786429725
+    },
+    "https://github.com/BeRserKerSec/CVE-2021-26084-Nuclei-template": {
+      "head": "c4eb95ea789cd13e536fd302f1ab165f1a13ca18",
+      "synced_at": 1786429860
+    },
+    "https://github.com/Elsfa7-110/mynuclei-templates": {
+      "head": "3e0ca285b38af2a2491fc6dc3f5eaf80dd78bf0b",
+      "synced_at": 1786429725
+    },
+    "https://github.com/thelabda/labdanuclei": {
+      "head": "f426583a5355aa72e1eff8e1315450239659ccb5",
+      "synced_at": 1786429860
+    },
+    "https://github.com/yavolo/nuclei-templates": {
+      "head": "1a9e2332a7bb8547c70f3c8e93b7011a2bad2921",
+      "synced_at": 1786429725
+    },
+    "https://github.com/zer0yu/Open-PoC": {
+      "head": "77ac1c78ea064f533371afede20979192c7ee5f0",
+      "synced_at": 1786429725
+    },
+    "https://github.com/ibaiw/nuclei_templates": {
+      "head": "63e00de4f3234e8602cbc2a22b10c334a4d99b41",
+      "synced_at": 1786429860
     }
   }
 }

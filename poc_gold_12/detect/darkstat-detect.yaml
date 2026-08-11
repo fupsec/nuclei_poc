@@ -1,12 +1,17 @@
 id: darkstat-detect
+
 info:
   name: Detect Darkstat Reports
   author: geeknik
-  description: Darkstat captures network traffic, calculates statistics about usage, and serves reports over HTTP
-  reference: https://unix4lyfe.org/darkstat/
   severity: high
+  description: Darkstat captures network traffic, calculates statistics about usage, and serves reports over HTTP
+  reference:
+    - https://unix4lyfe.org/darkstat/
   tags: darkstat,logs,exposure
-requests:
+  metadata:
+    max-request: 2
+
+http:
   - method: GET
     path:
       - "{{BaseURL}}"
@@ -26,6 +31,7 @@ requests:
           - "Measuring for"
           - "hosts</a>"
         condition: and
+
     extractors:
       - type: kval
         part: header

