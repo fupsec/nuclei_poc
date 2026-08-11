@@ -306,8 +306,18 @@ function applyI18n() {
 }
 
 async function init() {
-  const r = await fetch(CATS_URL);
-  A = await r.json();
+  try {
+    const r = await fetch(CATS_URL);
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    A = await r.json();
+  } catch(e) {
+    document.getElementById('statsLine').textContent = 'Failed to load _categories.json';
+    document.getElementById('totalPocs').textContent = '—';
+    document.getElementById('totalTiers').textContent = '—';
+    document.getElementById('totalCats').textContent = '—';
+    document.getElementById('tierGrid').innerHTML = '<div style="grid-column:1/-1;text-align:center;padding:40px;color:var(--text2);font-size:14px">Failed to load data. This page requires being served via HTTP (GitHub Pages).</div>';
+    return;
+  }
   const total = Object.values(A).reduce((a,b) => a + Object.values(b).reduce((c,d) => c + d, 0), 0);
   document.getElementById('totalPocs').textContent = total.toLocaleString();
   document.getElementById('totalTiers').textContent = Object.keys(A).length;
