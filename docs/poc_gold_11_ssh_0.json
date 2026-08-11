@@ -1,0 +1,1 @@
+["azure-nsg-ssh-unrestricted.yaml","openssh-username-enumeration.yaml","privesc-ssh-agent.yaml","privesc-sshpass.yaml","ssh-authorized-keys.yaml","ssh-known-hosts.yaml","ssh-weak-algo-supported.yaml","ssh-weak-public-key.yaml"]

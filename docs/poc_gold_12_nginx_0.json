@@ -1,0 +1,1 @@
+["default-nginx-page.yaml","exposed-ingress-nginx-admission.yaml","kinsta-nginx-cache-purge.yaml","nginx-linux-page.yaml","nginx-module-vts-xss.yaml","nginx-reverse-proxy-xss.yaml","nginx-shards.yaml","nginx-version.yaml","nginx-webui-solon-rce.yaml","nginxwebui-runcmd-rce.yaml"]

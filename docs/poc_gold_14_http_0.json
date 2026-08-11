@@ -1,0 +1,1 @@
+["apache-httpd-rce.yaml","hidden-http-header-injection.yaml","http-put-delete-directory-scan.yaml","http-username-password.yaml","httpbin-detection.yaml","spnego-http.yaml","springboot-httptrace.yaml"]

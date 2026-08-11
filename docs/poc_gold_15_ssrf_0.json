@@ -1,0 +1,1 @@
+["HIKVISION-iSecure-Center-proxy-ssrf.yaml","SPON-IP-SSRF.yaml","WebSphere-SSRF.yaml","discuz-downremoteimg-ssrf.yaml","firstline-blind-ssrf.yaml","header-blind-ssrf.yaml","hidden-ssrf.yaml","ibm-websphere-ssrf.yaml","images_proxy_ssrf.yaml","openbmcs-ssrf.yaml","ssrf-poc.yaml","umbraco-base-ssrf.yaml","websphere-preauth-ssrf.yaml","wp-plugin-canto-ssrf.yaml","yongyou-ssrf.yaml"]
